@@ -127,3 +127,4 @@ data/
 *.crt
 *.secret
 # .env.local
+outputs/qwen25_7b_lora_*/
