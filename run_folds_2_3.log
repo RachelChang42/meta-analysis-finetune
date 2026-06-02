@@ -1,0 +1,22 @@
+nohup: ignoring input
+========== Fold 2: build chunk train ==========
+原始论文数: 50
+去掉参考文献/尾部信息的论文数: 49
+生成chunk训练样本数: 1355
+平均每篇chunk数: 27.1
+========== Fold 2: patch train script ==========
+========== Fold 2: train ==========
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 1355 examples [00:00, 20618.42 examples/s]
+Map:   0%|          | 0/1355 [00:00<?, ? examples/s]Map:   0%|          | 1/1355 [00:00<02:55,  7.71 examples/s]Map:  63%|██████▎   | 850/1355 [00:00<00:00, 4451.27 examples/s]Map: 100%|██████████| 1355/1355 [00:00<00:00, 4355.96 examples/s]Map: 100%|██████████| 1355/1355 [00:00<00:00, 3872.24 examples/s]
+Traceback (most recent call last):
+  File "/root/autodl-tmp/NLP_Project/scripts/train_qlora_v2.py", line 52, in <module>
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/transformers/modeling_utils.py", line 3909, in from_pretrained
+    hf_quantizer.validate_environment(device_map=device_map)
+  File "/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/transformers/quantizers/quantizer_bnb_4bit.py", line 86, in validate_environment
+    raise ValueError(
+ValueError: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `load_in_8bit_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. 

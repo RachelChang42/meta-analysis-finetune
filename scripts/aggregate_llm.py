@@ -1,0 +1,116 @@
+import json
+import re
+import argparse
+from pathlib import Path
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+
+# =========================
+# 1. 读取数据
+# =========================
+def load_jsonl(path):
+    data = []
+    with open(path, "r", encoding="utf-8") as f:
+        for line_no, line in enumerate(f, 1):
+            if line.strip():
+                data.append((line_no, json.loads(line)))
+    return data
+
+
+# =========================
+# 2. chunk切分
+# =========================
+def split_text(text, tokenizer, chunk_size, overlap):
+    ids = tokenizer.encode(text, add_special_tokens=False)
+    step = max(1, chunk_size - overlap)
+
+    chunks = []
+    for start in range(0, len(ids), step):
+        part = ids[start:start + chunk_size]
+        chunks.append(tokenizer.decode(part, skip_special_tokens=True))
+        if start + chunk_size >= len(ids):
+            break
+    return chunks
+
+
+# =========================
+# 3. reference过滤
+# =========================
+def remove_references(text):
+    """
+    删除论文末尾参考文献部分
+    """
+    pattern = re.compile(
+        r"(?im)^\s*(references|bibliography|参考文献|参考资料)\s*[:：]?\s*$"
+    )
+
+    match = pattern.search(text)
+
+    if match:
+        return text[:match.start()]
+
+    return text
+
+
+# =========================
+# 4. LLM融合prompt
+# =========================
+def build_merge_messages(chunk_outputs):
+    text = "\n\n".join([
+        f"[Chunk {c['chunk_id']}]\n{c['output']}"
+        for c in chunk_outputs
+    ])
+
+    return [
+        {
+            "role": "system",
+            "content": (
+                "你是医疗文献信息融合专家。"
+                "负责将多个chunk抽取结果合并为唯一JSON。"
+                "冲突选择最具体最可靠信息，只输出JSON。"
+            )
+        },
+        {
+            "role": "user",
+            "content": f"""
+请融合以下chunk抽取结果，输出唯一JSON：
+
+字段：
+- Literature Title
+- Study Area & Country
+- Data Year
+- Accessibility Method
+- Facility Type
+- Demand Population
+- Dist/Time Calc Method
+- Transport Mode
+- Travel Time Period
+- Urbanization Rate
+
+要求：
+1. 去重
+2. 冲突取最可信
+3. 缺失填 N/A
+4. 只输出JSON
+
+内容：
+{text}
+"""
+        }
+    ]
+
+
+# =========================
+# 5. 主函数
+# =========================
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument("--input_file", required=True)
+    parser.add_argument("--output_file", required=True)
+    parser.add_argument("--model_name", required=True)
+
+    parser.add_argument("--chunk_size", type=int, default=512)
+    parser.add_argument("--overlap", type=int, default=64)
+    parser.add_argument("--max_new_tokens", type=int, default=128)

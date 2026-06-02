@@ -1,0 +1,28 @@
+nohup: ignoring input
+========== Fold 1: patch LoRA path ==========
+========== Fold 1: inference with top15 chunks ==========
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 469765632 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00, 17.59it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 19.71it/s]
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/accelerate/utils/modeling.py:1363: UserWarning: Current model requires 469769216 bytes of buffer for offloaded layers, which seems does not fit any GPU's remaining memory. If you are experiencing a OOM later, please consider using offload_buffers=True.
+  warnings.warn(
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:567: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/transformers/generation/configuration_utils.py:572: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based gDONE: outputs/lora_fold1_v3.jsonl
+========== Fold 1: clean ==========
+clean objects: 0 outputs/lora_fold1_v3_clean.jsonl
+========== Fold 1: title fix ==========
+pred: 0 gold: 16 saved: 0 outputs/lora_fold1_v3_titlefixed.jsonl
+========== Fold 1: eval ==========
+模型解析到 0 篇文献, 0 条记录
+标注解析到 13 篇文献, 16 条记录
+格式合规率: 0.0000
+BLEU: 0.0000
+宏平均F1: 0.0000
+幻觉率: 0.0000
+题目精确匹配: 0.0000
+年份F1: 0.0000
+地区F1: 0.0000
+宽松匹配准确率: 0.0000
+========== Fold 1: DONE ==========
+ALL DONE
