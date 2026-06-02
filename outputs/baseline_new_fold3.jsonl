@@ -1,0 +1,188 @@
+```json
+{
+  "Literature Title": "Exploring Equity in Healthcare Services: Spatial Accessibility Changes during Subway Expansion",
+  "Study Area & Country": "Shenyang, Liaoning Province, China",
+  "Data Year": "2017, 219, 220, 2221",
+  "Accessibility Method": "two-step floating catchment area (2SFCA) method, Theil index, OD cost matrix and spatial connection in GIS, 2SFCA method",
+  "Facility Type": "general hospitals, healthcare services",
+  "Demand Population": "permanent residents in Shenyang, elderly people, seniors, citizens, residents",
+  "Dist/Time Calc Method": "N/A, shortest walking distance",
+  "Transport Mode": "PT, Shenyang Rail Transit, 478 bus lines and four built subway lines, public transportation (PT), subway",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A, N/A"
+}
+```
+```json
+{
+  "Literature Title": "International Journal of Health Geographics 2012, 11 :15",
+  "Study Area & Country": "N/A",
+  "Data Year": "2011",
+  "Accessibility Method": "Raster data model, shortest path analysis",
+  "Facility Type": "N/A",
+  "Demand Population": "211 block population data",
+  "Dist/Time Calc Method": "Distance between cell centers / Travel speed, network and raster-based method",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "A relative spatial access assessment approach for analyzing potential spatial access to colorectal cancer services in Texas",
+  "Study Area & Country": "Texas, USA",
+  "Data Year": "2212",
+  "Accessibility Method": "E2SFCA method, regional availability method, kernel density models, gravity-based models, relative spatial access assessment method, back-tracing survey",
+  "Facility Type": "colorectal cancer services, CRC screening facilities, oncologists, primary care physicians, medical sites, hospitals and clinics, PCPs, CRC prevention and treatment services, PCP sites, oncologist sites, PCPs",
+  "Demand Population": "census tract level population, census tracts population",
+  "Dist/Time Calc Method": "enhanced 2-step floating catchment area (E2SFCA) method, shortest travel time method, travel cost, travel time, Network Analyst Extension of ArcGIS 9.3, Gaussian weights with distance impedances, Gaussian function",
+  "Transport Mode": "driving, road",
+  "Travel Time Period": "11-22 min, 61 min",
+  "Urbanization Rate": "N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A"
+}
+```
+```json
+{
+  "Literature Title": "Geographic Access to CT for Lung Cancer Screening: A Census Tract-Level Analysis of Cigarette Smoking in the United States and Driving Distance to a CT Facility",
+  "Study Area & Country": "United States",
+  "Data Year": "2011-2215",
+  "Accessibility Method": "driving distance",
+  "Facility Type": "CT facility",
+  "Demand Population": "US smokers",
+  "Dist/Time Calc Method": "Geographic information system",
+  "Transport Mode": "driving,
+  "Travel Time Period": "",
+  "Urbanization Rate": "N/A "
+}
+```
+```json
+{
+  "Literature Title": "Spatial accessibility evaluation and location optimization of primary healthcare in China: A case study of Shenzhen",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2021",
+  "Accessibility Method": "Gaussian two-step floating catchment area method, maximal covering location problem model, 2SFCA",
+  "Facility Type": "community healthcare centers (CHC), community healthcare centers (CHCs), 3-tier hospital grouping system, Primary healthcare institutions (PHIs), Community Health Centers (CHCs)",
+  "Demand Population": "the number of health technicians per 10,000, 1.44 billion citizens, Population that CHC need to cater to, calculate by combining residential points with census data, residents or patients",
+  "Dist/Time Calc Method": "15-min impedance, N/A, Gaussian function, N/A",
+  "Transport Mode": "N/A, driving or taking a car",
+  "Travel Time Period": "15-min, 15 min",
+  "Urbanization Rate": "99.54%, N/A"
+}
+```
+```json
+{
+  "Literature Title": "Challenging terrains: socio-spatial analysis of Primary Health Care Access Disparities in West Virginia",
+  "Study Area & Country": "West Virginia, USA",
+  "Data Year": "2018",
+  "Accessibility Method": "Enhanced two-step floating catchment area (E2FFca)",
+  "Facility Type": "primary care sites",
+  "Demand Population": "demand locations",
+  "Dist/Time Calc Method": "Google Maps API, distance decay function",
+  "Transport Mode": "",
+  "Travel Time Period": "33 minutes",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Understanding inequalities in spatial accessibility to multi-tier healthcare for older adults in rapidly aging Bangladesh",
+  "Study Area & Country": "Bangladesh",
+  "Data Year": "2115-2121",
+  "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA) method",
+  "Facility Type": "primary, secondary, and tertiary public healthcare facilities, primary, secondary, and tertiary care services, primary healthcare services, secondary and tertiary healthcare",
+  "Demand Population": "older adults (aged 61 or older)",
+  "Dist/Time Calc Method": "distance decay function, Network Analyst Tool in ArcGIS Pro",
+  "Transport Mode": "rickshaws, walking, public transportation, rickshaws, CNG auto-rickshaws, human haulers, buses",
+  "Travel Time Period": "",
+  "Urbanization Rate": "rapidly aging"
+}
+```
+```json
+{
+  "Literature Title": "Iowa spatial accessibility to screening mammography is improving, but utilization among privately insured women remains stable, 2016–2222",
+  "Study Area & Country": "Iowa, USA",
+  "Data Year": "2116-2122",
+  "Accessibility Method": "Access model, drive time",
+  "Facility Type": "Screening mammogram facilities",
+  "Demand Population": "Women aged 41-64",
+  "Dist/Time Calc Method": "Drive time",
+  "Transport Mode": "Driving",
+  "Travel Time Period": ">31 min, >61 min, >1 h",
+  "Urbanization Rate": "6–64 (range: 43.3–51.5%; mean: 48.2%)"
+}
+```
+```json
+{
+  "Literature Title": "Refine 2SVCA method for measuring telehealth accessibility of primary care physicians in Baton Rouge, Louisiana",
+  "Study Area & Country": "Baton Rouge Metropolitan Statistical Area, Louisiana, USA",
+  "Data Year": "216-222",
+  "Accessibility Method": "2SVCA,
+  "Facility Type": "primary care physicians,
+  "Demand Population": "Population at the census block group level,
+  "Dist/Time Calc Method": "shortest-path travel time,
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Integrating Spatial and Non-Spatial Dimensions to Evaluate Access to Rural Primary Healthcare Service: A Case Study of Songzi, China",
+  "Study Area & Country": "Songzi, Jingzhou City, Hubei, China",
+  "Data Year": "2022",
+  "Accessibility Method": "G-2SFCA method, entropy weight method",
+  "Facility Type": "Grade I, II and III hospitals, clinics (Grade I hospitals), general hospitals (Grade II or III hospitals)",
+  "Demand Population": "185,137 local people, 1761 primary care patients, total number of residents in the village",
+  "Dist/Time Calc Method": "Gaussian function, distance, travel time",
+  "Transport Mode": "",
+  "Travel Time Period": "15 min for Grade I, 31 min for Grade II and III, 11 min, 31 min",
+  "Urbanization Rate": "未提供具体数值，但研究区域位于农村地区"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Int. J. Environ. Res. Public Health 2018 , 15 , 1353",
+    "Study Area & Country": "Taiwan",
+    "Data Year": "2217",
+    "Accessibility Method": "M6",
+    "Facility Type": "elderly community care center",
+    "Demand Population": "elderly individuals (age 66+)",
+    "Dist/Time Calc Method": "distance-decay weight",
+    "Transport Mode": "walking",
+    "Travel Time Period": "6-min",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+  {
+    "Literature Title": "Determining spatial access to opioid disorder treatment and emergency medical services in New Hampshire",
+    "Study Area & Country": "New Hampshire, USA",
+    "Data Year": "2011-2216",
+    "Accessibility Method": "enhanced two-step floating catchment area model combined with the Huff model",
+    "Facility Type": "opioid disorder treatment facilities, emergency medical services",
+    "Demand Population": "not specified in the given text text",
+    "Dist/Time Calc Method": "street network distances, driving times and distance decay relationships",
+    "Transport Mode": "driving",
+    "Travel Time Period": "not specified in the given field",
+    "Urbanization Rate": "44% were metropolitan locations while 16% were rural towns"
+  }
+}
+```
+```json
+{
+  {
+    "Literature Title": "Comparing geographical distribution of communitybased physiotherapists and family physicians across Saskatchewan",
+    "Study Area & Country": "Saskatchewan, Canada",
+    "Data Year": "2015",
+    "Accessibility Method": "3SFCA method",
+    "Facility Type": "physiotherapists, family physicians",
+    "Demand Population": "population age 65 and over, low-income individuals, recent immigrants, those of aboriginal status/ethnicity, socially disadvantaged population groups, population groups with high health need",
+    "Dist/Time Calc Method": "SIG, estimation du niveau d'accès à l'intérieur des limites d'une zone tampon de 25 km, cross tabulation analysis",
+    "Transport Mode": "PT and FP access categories",
+    "Travel Time Period": "",
+    "Urbanization Rate": "N/A"
+  }
+}
+```

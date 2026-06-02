@@ -1,0 +1,174 @@
+```json
+{
+  "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Temporal Dimension and Population Demand of Different Ages",
+  "Study Area & Country": "Wuhan, China",
+  "Data Year": "2818",
+  "Accessibility Method": "3SFCA method",
+  "Facility Type": "Hospitals (3 levels)",
+  "Demand Population": "Elderly population",
+  "Dist/Time Calc Method": "real-time traffic conditions from AutoNavi using Gaussian function",
+  "Transport Mode": "Driving or taxis or private cars",
+  "Travel Time Period": "Different time periods",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Spatial accessibility to medical resources in Shenzhen, China: An assessment of community-level spatial access to beds, doctors, and nurses at general hospitals",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2016",
+  "Accessibility Method": "shortest path analysis, Gini coefficient, and enhanced 2-step floating catchment area (E2SFCA)",
+  "Facility Type": "general hospitals",
+  "Demand Population": "residents in Shenzhen",
+  "Dist/Time Calc Method": "shortest path analysis",
+  "Transport Mode": "",
+  "Travel Time Period": "31 min",
+  "Urbanization Rate": "highly urbanized"
+}
+```
+```json
+{
+  "Literature Title": "Modelling geographic accessibility to Primary Health Care Facilities: combining open data and geospatial analysis",
+  "Study Area & Country": "NNigeria, Mozambique, Mississippi (USA), Hong Kong, Akwa Ibom State, Niger Delta region, Nigeria",
+  "Data Year": "216, 214, 216, 212, 211, 2006, 2003, 22006",
+  "Accessibility Method": "GIS, ratio and shortest road distance, walkability assessment for accessibility, Combination of terrain attributes and distance from road network, 结合地形属性和道路网络的距离创建结果",
+  "Facility Type": "Primary Health Care Facilities, primary health care centres, paediatrics, obstetricin/gynaecologist, trauma/burn centres, HCFs, PHCF, school, health facilities, health facilities, PHCF",
+  "Demand Population": "specific population in need of these service, cancer patients in rural/isolated or islands, elderly population of the Metropolis, population in Akwa Ibom State, not specified, not specified, not specified, not specified",
+  "Dist/Time Calc Method": "walking, driving, 22-33 minutes, shortest road distance, Predictive Analysis Tool (PAT), reclassified to three class to summarize the level of access, Speed model based on conditions in Table 1, 使用表1中速度模型计算从每个PHCF的旅行时间",
+  "Transport Mode": "walking, driving, not specified, not specified, not specified, not specified, not specified, Not specified",
+  "Travel Time Period": ">66 minutes, 22-33 minutes, not specified, not specified, not specified, not specified, not specified, Not specified",
+  "Urbanization Rate": "NN/A"
+}
+```
+```json
+{
+  "Literature Title": "Spatio-temporal patterns of healthservice delivery and access to maternal, child, and outpatient healthcare in Volta region, Ghana: a repeated cross-sectional ecological study using health facility data",
+  "Study Area & Country": "Volta region, Ghana",
+  "Data Year": "216 to 2222",
+  "Accessibility Method": "Travel time to the nearest health facility, Travel time groups, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility, Travel time to the nearest health facility
+```json
+{
+  "Literature Title": "The Contributions of Population Distribution, Healthcare Resourcing, and Transportation Infrastructure to Spatial Accessibility of Health Care, Spatial Access to Health Care Over Time",
+  "Study Area & Country": "Chishui, Chishui county from Guizhou province, China, rural China, a poverty-stricken county in China",
+  "Data Year": "2014-217, N/A",
+  "Accessibility Method": "enhanced two-step floating catchment area model and the chain substitution method, enhanced two-step floating catchment area (E2SFCA) model, provider to population ratio, travel barriers to the nearest provider, average travel barriers to a group of providers, gravity models, Two-Step Floating Catchment Area (2SFCA), Enhanced Two-Step Floating Catchment Area (E2SFCA), Enhanced ThreeStep Floating Catchment Area (E3SFCA), Huff model, Enhanced Two-Step Floating Catchment Area Method (E2sFCAM), chain substitution method",
+  "Facility Type": "healthcare institutions, general hospitals, specialist hospitals, township health centers, and village clinics, general hospitals, hospitals, township health centers, village clinics",
+  "Demand Population": "rural residents, more than 3.3 million residents living in impoverished counties, N/A",
+  "Dist/Time Calc Method": "distance or time spent by the patient to the healthcare organization, specific speed for different types of roads, walking speed for short distances, Gaussian function",
+  "Transport Mode": "various road types, N/A",
+  "Travel Time Period": "95 minutes, 66 minutes, N/A",
+  "Urbanization Rate": "N/A, N/A"
+}
+```
+```json
+{
+  "Literature Title": "Journal of Transport Geography 87 (2020) 102794",
+  "Study Area & Country": "rural areas with large-scale agriculture and hilly land, Shenzhen City, China",
+  "Data Year": "2014",
+  "Accessibility Method": "2SFCA,
+  "Facility Type": "hospital, tertiary hospitals, secondary hospitals,
+  "Demand Population": "",
+  "Dist/Time Calc Method": "exponential function, hourly edge travel time distributions from taxi trajectories",
+  "Transport Mode": "taxi",
+  "Travel Time Period": "8:55–9:51, five working days",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Int. J. Environ. Res. Public Health 2019 , 16 , 171",
+  "Study Area & Country": "City of Calgary, Alberta, Canada",
+  "Data Year": "2019",
+  "Accessibility Method": "Enhanced Two-Step Floating Catchment Area (E2SFCA)",
+  "Facility Type": "primary healthcare facilities",
+  "Demand Population": "N/A",
+  "Dist/Time Calc Method": "sharper distance decay weights",
+  "Transport Mode": "driving, walk, multimodal",
+  "Travel Time Period": "33 min",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Disparities in Geographic Access to Pediatric Subspecialty Care, Matern Child Health J (2008) 12:624–632",
+  "Study Area & Country": "United States",
+  "Data Year": "2207, 2208",
+  "Accessibility Method": "distance to care, Distance to care",
+  "Facility Type": "ped, COTH member hospital, general pediatricians, family practice physicians",
+  "Demand Population": "Under-18 population, metropolitan status, and presence of a nearby teaching facility, Residents in US zip codes",
+  "Dist/Time Calc Method": "straight-line distance, Distance",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "Metropolitan status (OSA of 1 million or more persons) Non-metropolitan, Metropolitan status (OSA of 1 million or more persons) Non-metropolitan 41.348*** 28.548*** 37.736*** 45.649*** 11.33*** 28.687*** 31.24*** 31.056*** 33.295*** MSA of 250,000–999,999 persons 16.424*** –1.116 9.3781* 27.876*** –3.193** 6.651* –1.138 –1.312 7.854* MSA of 150,000–249,999 persons 32.997*** 12.223* 22.963*** 32.926*** 1.621 8"
+}
+```
+```json
+{
+  "Literature Title": "BMC Health Services Research",
+  "Study Area & Country": "Canada",
+  "Data Year": "2012",
+  "Accessibility Method": "modified gravity model, drive time, Potential spatial access",
+  "Facility Type": "PHC physician, PHC physician clinics, primary health care physician",
+  "Demand Population": "Dissemination block, Statistics Canada 2006 census block centroids",
+  "Dist/Time Calc Method": "road network travel time, road travel times, Origin Destination Cost Matrix, DMTI 2008 CanMap RouteLogistics roads dataset, Travel time",
+  "Transport Mode": "road, drive, Car",
+  "Travel Time Period": "11 minutes to 121 minutes, 120 minutes, Two hours, >2 hours",
+  "Urbanization Rate": "N/A, N/A"
+}
+```
+```json
+{
+  "Literature Title": "Spatial equity of physiotherapy accessibility in Aotearoa New Zealand in relation to M¯ aori and Pacific ethnicity, socioeconomic deprivation, and rurality",
+  "Study Area & Country": "Aotearoa New Zealand",
+  "Data Year": "2022",
+  "Accessibility Method": "distance-based 3-step floating catchment area (3SFCA) geospatial analysis methodology",
+  "Facility Type": "physiotherapists",
+  "Demand Population": "Statistical Area 2",
+  "Dist/Time Calc Method": "fine-scale meshblock calculation",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "descriptive"
+}
+```
+```json
+{
+  "Literature Title": "HEALTHCARE ACCESS AND PGX DRUG PRESCRIBING",
+  "Study Area & Country": "Florida, USA; South Florida",
+  "Data Year": "2011- to 2218; 213– 2217",
+  "Accessibility Method": "2SFCA method; 2-step floating catchment area method; two-step floating catchment area method; 2SFCA; geographic and population-weighted centroids and 31- and 63- min drive times",
+  "Facility Type": "",
+  "Demand Population": "patients",
+  "Dist/Time Calc Method": "drive times; origin- destination driving time matrix; driving time; 31 min drive time cutoff; 31 min drive time threshold; 33- and 63- min drive times; 33- and 63- min drive times",
+  "Transport Mode": "driving; car",
+  "Travel Time Period": "31 min, 63 min; 33 min; 31 min, 63 min; 33 and 63 min",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "BMC Health Services Research",
+  "Study Area & Country": "The six most populous cities in the state of Ohio, USA",
+  "Data Year": "2023",
+  "Accessibility Method": "2SFCA accessibility score combined with household income data",
+  "Facility Type": "hospitals",
+  "Demand Population": "low-income, minority, elderly, children, disabled persons",
+  "Dist/Time Calc Method": "",
+  "Transport Mode": "public transportation",
+  "Travel Time Period": "",
+  "Urbanization Rate": "urbanized"
+}
+```
+```json
+{
+  "Literature Title": "HOW TO GUARANTEE THE ACCESS TO THE HEMODIALYSIS SERVICES?",
+  "Study Area & Country": "Mato Grosso do Sul State, Brazil",
+  "Data Year": "2112",
+  "Accessibility Method": "",
+  "Facility Type": "clinics, hemodialysis clinics,
+  "Demand Population": "patients on hemodialysis",
+  "Dist/Time Calc Method": "Google Maps API (using highways and paved roads),
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "N
+}
+```

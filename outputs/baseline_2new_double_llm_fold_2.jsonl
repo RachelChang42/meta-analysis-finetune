@@ -1,0 +1,133 @@
+```json
+{
+  "Literature Title": "An Equity Evaluation of Healthcare Accessibility across Age Strataata",
+  "Study Area & Country": "Karamay District, China",
+  "Data Year": "2224",
+  "Accessibility Method": "Gaussian two-step floating catchment area method",
+  "Facility Type": "hiers, specifically hospitals and PHC institutions",
+  "Demand Population": "residential compounds, various age groups, elderly, children aged 0–12, generally population",
+  "Dist/Time Calc Method": "distancebased calculations",
+  "Transport Mode": "on foot, public transportation",
+  "Travel Time Period": "15 min, 15-minute living circle",
+  "Urbanization Rate": "99%"
+}
+```
+```json
+{
+  "Literature Title": "INFLUENCING FACTORS ON HEALTHCARE ACCESS: RF APPROACH",
+  "Study Area & Country": "Shenyang, China",
+  "Data Year": "2021",
+  "Accessibility Method": "2SFCA method",
+  "Facility Type": "Public general hospitals (tertiary, general, primary)",
+  "Demand Population": "9.07 million people",
+  "Dist/Time Calc Method": "Distance thresholds consistent with supply and demand locations",
+  "Transport Mode": "Walking, public transportation, rental vehicles, private cars",
+  "Travel Time Period": "15-22 minutes to primary hospitals, 22 - 35 minutes to general and tertiary hospitals",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "F. Wang, W. Luo / Health & Place 11 (2005) 131–146",
+  "Study Area & Country": "Illinois, USA",
+  "Data Year": "2005",
+  "Accessibility Method": "Two-step Floating Catchment Area (FCA) method",
+  "Facility Type": "Physicians",
+  "Demand Population": "Residents",
+  "Dist/Time Calc Method": "Travel time",
+  "Transport Mode": "Not specified",
+  "Travel Time Period": "Threshold of 30 min",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Health Service Accessibility and Risk in Cervical Cancer Prevention: Comparing Rural Versus Nonrural Residence in New Mexico",
+    "Study Area & Country": "New Mexico, USA",
+    "Data Year": "2011-2212",
+    "Accessibility Method": "Travel distance and travel time",
+    "Facility Type": "Cervical cancer screening (Pap and/or HPV testing), diagnostic testing (colposcopy), and excisional precancer treatment services (loop electrosurgical excision procedure or cone biopsy)",
+    "Demand Population": "Women",
+    "Dist/Time Calc Method": "Population-weighted centroid to the nearest health care facility",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "23% rural, 21% below federal poverty level, 16% less than high school education"
+  }
+}
+```
+```json
+{
+  {
+    "Literature Title": "Geographic patterns of end-stage renal disease and kidney trans transplants in the Midwestern United States",
+    "Study Area & Country": "11 states in the Midwestern US",
+    "Data Year": "2004 to 2011",
+    "Accessibility Method": "enhanced two-step floating catchment area method",
+    "Facility Type": "transplant centers",
+    "Demand Population": "white, black, and Native American population groups",
+    "Dist/Time Calc Method": "N/A",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "rural and urban counties"
+  }
+}
+```
+```json
+[
+  {
+    "Literature Title": "Epidemiologia 2225, 6, 81",
+    "Study Area & Country": "Casablanca-Settat, Morocco",
+    "Data Year": "2225",
+    "Accessibility Method": "N/A",
+    "Facility Type": "University Hospital Center (UHC), Primary Health Care Centers (PHCs), Primary Health Care Centers (PHCCss)",
+    "Demand Population": "Women with breast cancer",
+    "Dist/Time Calc Method": "Distance in km",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "Rural: 13.52%, Urban: 39.92%"
+  }
+]
+```
+```json
+{
+  "Literature Title": "Geographic access to colonoscopy, neighborhood social vulnerability, and associations with late-stage colorectal cancers in Maryland: 2011–2212",
+  "Study Area & Country": "Maryland, USA",
+  "Data Year": "2011–2211",
+  "Accessibility Method": "Enhanced Two-Step Floating Catchment Area (E2SFCA)",
+  "Facility Type": "Colonoscopy providers",
+  "Demand Population": "CRC patients aged 55–84",
+  "Dist/Time Calc Method": "N/A",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "Rurality"
+}
+```
+```json
+{
+  "Literature Title": "Emergency healthcare accessibility in Imperial County’s Salton Sea region",
+  "Study Area & Country": "Imperial County, USA",
+  "Data Year": "2021",
+  "Accessibility Method": "RAAM model, travel times, service congestion",
+  "Facility Type": "emergency rooms, EMT stations, hospitals, emergency healthcare services",
+  "Demand Population": "residents in the Salton Sea region, low-income, elderly, and disabled groups, children with asthma, census tracts, population density",
+  "Dist/Time Calc Method": "travel times, average driving travel times in a region, travel times, road network data, traffic patterns, urban-spatial configuration, not specified in the given field",
+  "Transport Mode": "driving, ambulance, public transportation",
+  "Travel Time Period": "moderate traffic times, rural travel times, daily, average travel time, not specified in the given field",
+  "Urbanization Rate": "3.8%, not specified in the given field"
+}
+```
+```json
+{
+{
+  "Literature Title": "Impact of traffic congestion on spatial access to healthcare services in Nairobi",
+  "Study Area & Country": "Nairobi, Kenya",
+  "Data Year": "2019",
+  "Accessibility Method": "2-step floating catchment area model",
+  "Facility Type": "primary, secondary, tertiary healthcare facilities",
+  "Demand Population": "N/A",
+  "Dist/Time Calc Method": "drive time",
+  "Transport Mode": "car",
+  "Travel Time Period": "peak and off-peak hours",
+  "Urbanization Rate": "N/A"
+}
+```

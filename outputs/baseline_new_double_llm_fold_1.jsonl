@@ -1,0 +1,128 @@
+```json
+{
+  "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Temporal Dimension and Population Demand of Different Ages",
+  "Study Area & Country": "Wuhan, China",
+  "Data Year": "2818",
+  "Accessibility Method": "3SFCA method",
+  "Facility Type": "Hospitals (3 levels)",
+  "Demand Population": "elderly and young",
+  "Dist/Time Calc Method": "real-time traffic conditions from AutoNavi",
+  "Transport Mode": "taxis, driving",
+  "Travel Time Period": "different time periods,
+```json
+{
+{
+  "Literature Title": "Assessing Spatial Accessibility to Medical Resources at the Community Level in Shenzhen, China",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2018-2219, 211, 215, 216, 219",
+  "Accessibility Method": "shortest path analysis, Gini coefficients, Lorenz curves, E2SFCA, E2SFCA model, shortest path analysis, E2SFCA, E2SFCA, E2SFCA,
+```json
+{
+  {
+    "Literature Title": "Modelling geographic accessibility to Primary Health Care Facilities: combining open data and geospatial analysis",
+    "Study Area & Country": "Nigeria",
+    "Data Year": "2019",
+    "Accessibility Method": "N/A",
+    "Facility Type": "Primary Health Care Facilities",
+    "Demand Population": "N/A",
+    "Dist/Time Calc Method": "N/A",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "N/A"
+  },
+```json
+{
+  "Literature Title": "Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta Region, Ghana: a repeated cross-sectional ecological study using health facility data",
+  "Study Area & Country": "Volta Region, Ghana",
+  "Data Year": "2016-2022",
+  "Accessibility Method": "travel time, geospatial data, spatial analysis, travel time groups, travel time to the nearest health facility, cost distance approach",
+  "Facility Type": "health facilities, CHPS, health centres,
+```json
+{
+  "Literature Title": "The Contributions of Population Distribution, Healthcare Resourcing, and Transportation Infrastructure to Spatial Accessibility of Health Care",
+  "Study Area & Country": "Chishui county from Guizhou province, China",
+  "Data Year": "2217",
+  "Accessibility Method": "enhanced two-step floating catchment area model and the chain substitution method",
+  "Facility Type": "physicians",
+  "Demand Population": "rural residents",
+  "Dist/Time Calc Method": "distance or time spent by the patient to the healthcare organizations",
+  "Transport Mode
+```json
+{
+  "Literature Title": "Evaluating spatial accessibility to healthcare services under travel time uncertainty: A reliability-based floating catchment area approach",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2214",
+  "Accessibility Method": "reliability-based two-step floating catchment area (2SFCA) method",
+  "Facility Type": "tertiary, secondary, and primary hospitals",
+  "Demand Population": "N/A",
+  "Dist/Time Calc Method": "hourly edge travel time distributions from taxi trajectories",
+  "Transport
+```json
+{
+  {
+    "Literature Title": "Int. J. Environ. Res. Public Health 2019, 16, 171",
+    "Study Area & Country": "City of Calgary, Alberta, Canada",
+    "Data Year": "2211",
+    "Accessibility Method": "spatial access ratio (SPAR), spatial regression analysis, enhanced two-step floating catchment area (E2SFCA), two-step floating catchment area (2SFCA) with Gaussian weights, two-step floating catchment area (2SFCA), spatial regression",
+    "
+```json
+[
+  {
+    "Literature Title": "Matern Child Health J (2108) 12:624–632",
+    "Study Area & Country": "United States",
+    "Data Year": "2108",
+    "Accessibility Method": "Distance to care",
+    "Facility Type": "COTH member hospital, general pediatricians, family practice physicians",
+    "Demand Population": "Residents in US zip codes",
+    "Dist/Time Calc Method": "Distance",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N
+```json
+{
+  "Literature Title": "Interpreting the results of a modified gravity model: examining access to primary health care physicians in five Canadian provinces and territories",
+  "Study Area & Country": "five Canadian provinces and territories",
+  "Data Year": "2012",
+  "Accessibility Method": "modified gravity model",
+  "Facility Type": "PHC physicians",
+  "Demand Population": "residents of five Canadian provinces and territories",
+  "Dist/Time Calc Method": "road network travel time",
+  "Transport Mode": "car",
+  "Travel Time Period": "12
+```json
+{
+{
+  "Literature Title": "Spatial equity of physiotherapy accessibility in Aotearoa New Zealand in relation to M¯ aori and Pacific ethnicity, socioeconomic deprivation, and rurality",
+  "Study Area & Country": "Aotearoa New Zealand",
+  "Data Year": "225",
+  "Accessibility Method": "3-step floating catchment area method",
+  "Facility Type": "Physiotherapy services and workforce",
+  "Demand Population": "Ethnicity, socioeconomic and geographic population groupings",
+  "Dist/Time Calc Method": "N/A",
+```json
+{
+{
+  "Literature Title": "HEALTHCARE ACCESS AND PGX DRUG PRESCRIBING",
+  "Study Area & Country": "Florida, USA",
+  "Data Year": "2011-2218",
+  "Accessibility Method": "2SFCA method",
+  "Facility Type": "Primary care provider",
+  "Demand Population": "adult UF Health patients with Florida home address",
+  "Dist/Time Calc Method": "66- min drive time",
+  "Transport Mode": "driving",
+  "Travel Time Period": "31- min
+```json
+{
+  {
+    "Literature Title": "BMC Health Services Research",
+    "Study Area & Country": "six largest cities of Ohio, USA",
+    "Data Year": "2213",
+    "Accessibility Method": "two-step floating catchment area technique",
+    "Facility Type": "general medical and surgical hospitals",
+    "Demand Population": "vulnerable population, non-elderly individuals in Ohio's Appalachian counties, people of color, people experiencing poverty, people with disabilities, the elderly, low-income, minority, elderly, children, disabled persons, vulnerable census tracts, citizens,
+```json
+{
+  "Literature Title": "HOW TO GUARANTEE THE ACCESS TO THE HEMODIALYSIS SERVICES?",
+  "Study Area & Country": "Mato Grosso do Sul State, Brazil",
+  "Data Year": "2212",
+  "Accessibility Method": "地理空间分析, Mapping county of residence and place of treatment, Underestimated, Distance measured using Google Maps API, Mapping patients, recording distance traveled, estimating number of patients, N/A",
+  "Facility Type": "Clinics, Hemodialysis Clinics, Hemodialysis, Hemodialysis clinic, Dialysis

@@ -1,0 +1,16 @@
+```json
+{
+  {
+    "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Temporal Dimension and Population Demand of Different Ages",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": "2214",
+    "Accessibility Method": "Improved Three-Step Floating Catchment Area (3SFCA) method",
+    "Facility Type": "hospitals, second-class hospitals, third-class hospitals",
+    "Demand Population": "elderly and the young",
+    "Dist/Time Calc Method": "real-time traffic conditions from AutoNavi, Gaussian function, negative power distance impedance function",
+    "Transport Mode": "taxis or private cars, travel time",
+    "Travel Time Period": "different time periods, rush hours, non-peak periods, 11:40, 7:41 a.m., 11:41 a.m., 12:41 pp.m., 3:21 pp.m., 5:21 pp.m.",
+    "Urbanization Rate": "N/A"
+  }
+}
+```

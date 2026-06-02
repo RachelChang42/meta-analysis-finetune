@@ -1,0 +1,76 @@
+```json
+{
+  {
+    "Literature Title": "Exploring Equity in Healthcare Services: Spatial Accessibility Changes during Subway Expansion",
+    "Study Area & Country": "Shenyang, China",
+    "Data Year": "2217, 2220, 2221",
+    "Accessibility Method": "twostep floating catchment area, vulnerability index, accessibility measures, gravity-based accessibility, cumulative opportunity accessibility, utility-based accessibility, Theil index, quantity, quality, and walking distance, high-quality access, walking accessibility",
+    "Facility Type": "healthcare, general hospitals, public general hospitals, healthcare services facilities, healthcare services, healthcare services",
+    "Demand Population": "peri-urban areas, elderly people, residents, permanent residents in Shenyang, elderly population, mortality, tax revenue, residents, Subdistricts, residential areas, suburban areas with high demand",
+    "Dist/Time Calc Method": "walking distance, distance/time decay function, shortest walking distance, OD cost matrix and spatial connection in GIS",
+    "Transport Mode": "public transport, subway, PT, Shenyang Rail Transit, 478 bus lines, four subway lines, PT, walking to PT stations, PT, walking, PT, walking",
+    "Travel Time Period": "N/A, Over the study period, N/A",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+{
+  "Literature Title": "International Journal of Health Geographics 2212, 11 :15",
+  "Study Area & Country": "Michigan, USA",
+  "Data Year": "2212",
+  "Accessibility Method": "raster-based method, network-based method, shortest path analysis, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster-based method, network-based method, raster-based method, network-based method, raster and network-based methods, network-based method, raster-based method, network-based method, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster and network-based methods, network-based method, raster and networkbased methods, network-based method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods, networkbased method, raster and networkbased methods
+```json
+{
+  {
+    "Literature Title": "A relative spatial access assessment approach for analyzing potential spatial access to colorectal cancer services in Texas",
+    "Study Area & Country": "Texas, USA",
+    "Data Year": "2011",
+    "Accessibility Method": "SPAR derived from the enhanced 2-step floating catchment area (E2SFCA) method",
+    "Facility Type": "CRC screening facilities, oncologists, primary care physicians",
+    "Demand Population": "Non-Hispanic blacks, Asians, people in affluent areas, different racial/ethnic and socioeconomic population groups",
+    "Dist/Time Calc Method": "E2SFCA method and the shortest travel time method",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "30, 61, 110 min",
+    "Urbanization Rate": "4%"
+  }
+}
+```
+```json
+{
+  "Literature Title": "Geographic Access to CT for Lung Cancer Screening: A Census Tract-Level Analysis of Cigarette Smoking in the United States and Driving Distance to a CT Facility",
+  "Study Area & Country": "United States",
+  "Data Year": "2011-2215",
+  "Accessibility Method": "Driving distance",
+  "Facility Type": "ACR-accredited CT facility",
+  "Demand Population": "US smokers",
+  "Dist/Time Calc Method": "Geographic Information System",
+  "Transport Mode": "Driving",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Spatial accessibility evaluation and location optimization of primary healthcare in China: A case study of Shenzhen",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2023",
+    "Accessibility Method": "Gaussian two-step floating catchment area method",
+    "Facility Type": "Community healthcare centers (CHC)",
+    "Demand Population": "Shenzhen residents",
+    "Dist/Time Calc Method": "Traveling time to healthcare facilities",
+    "Transport Mode": "Driving or taking a car",
+    "Travel Time Period": "15 minutes",
+    "Urbanization Rate": "99.54%"
+  }
+}
+```
+```json
+{
+  "Literature Title": "Challenging terrains: socio-spatial analysis of Primary Health Care Access Disparities in West Virginia",
+  "Study Area & Country": "West Virginia, USA",
+  "Data Year": "2018",
+  "Accessibility Method": "Enhanced two-step floating catchment area (E2SFCA)",
+  "Facility Type": "primary health care providers and facilities, primary healthcare facilities, primary care sites, primary healthcare sites, primary care, primary health care sites, primary healthcare facilities, primary care, primary health care providers and facilities, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities, primary care, primary healthcare sites, primary care sites, primary healthcare facilities,

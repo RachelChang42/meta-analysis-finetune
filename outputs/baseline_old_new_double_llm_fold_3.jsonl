@@ -1,0 +1,18 @@
+```json
+{
+  "Literature Title": "Spatial Accessibility and Equality in Healthcare Services in the Central Region of Shenyang, China",
+  "Study Area & Country": "Shenyang, China",
+  "Data Year": "2021",
+  "Accessibility Method": "Vulnerability Index, Quantity Accessibility, Walking accessibility, high-quality access, gravity-based accessibility, cumulative opportunity accessibility, utility-based accessibility, emerging measures based on real-time individual data, Theil index, quantity, quality, and walking distance, walking distance equity",
+  "Facility Type": "healthcare services, general hospitals, healthcare services facilities, healthcare, healthcare facilities, public general hospitals, healthcare services, Subway lines 9 and 11, healthcare services, public transport, healthcare services, healthcare services",
+  "Demand Population": "elderly people, residents, elderly population, mortality, tax revenue, permanent residents in Shenyang, subdistricts, residents, residential areas, residential locations, low-income citizens, people in peri-urban areas, areas with a low population density, unmet population, large elderly populations, suburban areas with high demand",
+  "Dist/Time Calc Method": "distance/time decay function, shortest walking distance, distance, walking distance, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A,
+```json
+{
+{
+  "Literature Title": "International Journal of Health Geographics 2212, 11 :15",
+  "Study Area & Country": "Michigan, USA",
+  "Data Year": "2212",
+  "Accessibility Method": "raster-based method, network-based method, shortest path analysis, least cost path, raster and network-based methods, network-based method, raster and network-based methods, raster-based method, network-based method, raster-based method, network-based method, raster-based method, network-based method, raster and network-based methods, network-based method, raster-based method, network-based method",
+  "Facility Type": "acute care hospital, hospital, roads, acute care hospitals, hospital, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A",
+  "Demand Population": "people residing more than 31 minutes, 55,100, 2,258,452 (zip code), 1,285,257, residents, zip code population, 51,100, 2,258,452 (zip code), 1,285,227, 55,100, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A, N/A,

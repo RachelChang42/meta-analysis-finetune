@@ -1,0 +1,14 @@
+[
+  {
+    "Literature Title": "Spatial Access to Medical Services in the Underdeveloped Region of Northwestern China: A Case Study in Lanzhou City",
+    "Study Area & Country": "Lanzhou City, China",
+    "Data Year": 2015,
+    "Accessibility Method": "G2FCA",
+    "Facility Type": "General hospitals, community healthcare centers, and community healthcare stations",
+    "Demand Population": "Total permanent resident population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 9.3)",
+    "Transport Mode": "Highways, national roads, provincial roads, fast-speed roads, country roads, and urban main roads",
+    "Travel Time Period": "",
+    "Urbanization Rate": "metropolitan city"
+  }
+]

@@ -1,0 +1,204 @@
+[
+  {
+    "Literature Title": "Disparities in Geographic Access to Pediatric Subspecialty Care",
+    "Study Area & Country": "Contiguous United States",
+    "Data Year": "2003 (Pediatric subspecialists),
+    "Accessibility Method": "Distance to nearest facility (Euclidean distance),
+    "Facility Type": "Pediatric subspecialists (16 subspecialties: cardiology, critical care medicine, developmental behavioral pediatrics, neonatal‑perinatal medicine, neurodevelopmental disabilities, pediatric emergency medicine, pediatric endocrinology, pediatric gastroenterology, pediatric hematology/oncology, pediatric infectious diseases, pediatric nephrology, pediatric pulmonology, pediatric rheumatology, pediatric sports medicine),
+    "Demand Population": "Children (<18),
+    "Dist/Time Calc Method": "Straight‑line (Euclidean) distance,
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": "5-level categorization of metropolitan status (Large urban areas, Medium urban areas, Small urban areas, Large rural Micropolitan areas, Small Rural Micropolitan areas, Nonmicropolitan areas)
+  }
+]
+[
+  {
+    "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Hierarchical-Accumulation Effect of Multilevel Healthcare Facilities and Population Demand",
+    "Study Area & Country": "Main urban area of Karamay, Karamay District, Karamay, Xinjiang Uygur Autonomous Region, China",
+    "Data Year": 2020,
+    "Accessibility Method": "Improved 3SFCA (Specifically addressing the hierarchical-accumulation effect and population demand),
+    "Facility Type": "Public general hospitals (including class A tertiary, class B tertiary, class A secondary, class B secondary, and primary hospitals),
+    "Demand Population": "Total population (adjusted for elderly demand),
+    "Dist/Time Calc Method": "Network analysis considering road type, distance decay, and traffic conditions (travel time),
+    "Transport Mode": "Car,
+    "Travel Time Period": "Based on actual traffic conditions and speed limits,
+    "Urbanization Rate": "Urban
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating geographic accessibility to healthcare services under travel time uncertainty: A reliability-based floating catchment domain approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2012 (Pop), 2015 (HCF locations)",
+    "Accessibility Method": "Reliability-based FCA",
+    "Facility Type": "General hospitals (Class I, II, and III)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi",
+    "Travel Time Period": "07:40-08:40 and 17:40-18:40",
+    "Urbanization Rate": "Urban
+}
+[
+  {
+    "Literature Title": "Empowering access: evaluating spatial accessibility to multi-tier healthcare services in Northwestern China",
+    "Study Area & Country": "Lanzhou City, China",
+    "Data Year": "2022 (Pop)",
+    "Accessibility Method": "G2SFCA",
+    "Facility Type": "Tier 1 (primary care): general practitioners, nurses, village doctors, PHC; Tier 2 (secondary care): inpatient beds in hospitals; Tier 3 (tertiary care): inpatient beds in hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis",
+    "Transport Mode": "Highways, national roads, provincial roads, fast-speed roads, country roads, urban main roads, urban minor roads, and village roads",
+    "Travel Time Period": "speed limits,
+    "Urbanization Rate": "66.6% urban, 33.4% rural
+  }
+]
+[
+  {
+    "Literature Title": "Refining 2SVCA: Integrating Telehealth into a Spatial Accessibility Model",
+    "Study Area & Country": "Maine, USA",
+    "Data Year": 2022,
+    "Accessibility Method": "2SVCA",
+    "Facility Type": "Primary care physicians",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Euclidean (impedance-free)",
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  },
+  {
+    "Literature Title": "Refining 2SVCA: Integrating Telehealth into a Spatial Accessibility Model",
+    "Study Area & Country": "Maine, USA",
+    "Data Year": 2022,
+    "Accessibility Method": "2SVCA",
+    "Facility Type": "Primary care physicians (virtual)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Euclidean (impedance-free)",
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": "",
+    "Telehealth Access": "broadband speed data"
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating spatial accessibility to healthcare services under travel time uncertainty: A reliability-based floating catchment area approach",
+    "Study Area & Country": "Changsha, China",
+    "Data Year": 2014,
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "Tertiary and Secondary hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi",
+    "Travel Time Period": "five working days from 22 to 26 September 2014",
+    "Urbanization Rate": "Urban agglomeration"
+  }
+]
+[
+  {
+    "Literature Title": "An Examination of the Stochastic Distribution of Spatial Accessibility to Hospitals across Age Strata Using a Randomized Utility Maximize Model",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": 2021,
+    "Accessibility Method": "Expected floating catchment area",
+    "Facility Type": "General hospitals (Public/private)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Driving (Taxi)",
+    "Travel Time Period": "10 AM, Monday (Off-peak)",
+    "Urbanization Rate": "Urban core, new urban areas, and suburban/rural regions"
+  },
+  {
+    "Literature Title": "An Examination of the Stochastic Distribution of Spatial Accessibility to Hospitals across Age Strata Using a Randomized Utility Maximize Model",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": 2021,
+    "Accessibility Method": "Expected floating catchment area",
+    "Facility Type": "General hospitals (Public/private)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Driving (Taxi)",
+    "Travel Time Period": "10 AM, Monday (Off-peak)",
+    "Urbanization Rate": "Urban core, new urban areas, and suburban/rural regions"
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating Disparities in Elderly Road Traffic Accident Injuries Using a Geographic Accessibility and Inequality Index",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": "2015 (Pop), 2020 (Hospitals)",
+    "Accessibility Method": "E2SFCA",
+    "Facility Type": "Tertiary care hospitals",
+    "Demand Population": "Elderly (>=65),
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 1600),
+    "Transport Mode": "Driving",
+    "Travel Time Period": "speed limits,
+    "Urbanization Rate": "urban
+  },
+  {
+    "Literature Title": "Evaluating Disparities in Elderly Road Traffic Accident Injuries Using a Geographic Accessibility and Inequality Index",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": "2015 (Pop), 2020 (Hospitals)",
+    "Accessibility Method": "G2SFCA",
+    "Facility Type": "Tertiary care hospitals",
+    "Demand Population": "Elderly (>=65)",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 1600)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "speed limits",
+    "Urbanization Rate": "urban
+  }
+]
+[
+  {
+    "Literature Title": "A relative spatial access assessment approach for analyzing potential spatial access to primary care physicians in Michigan",
+    "Study Area & Country": "Michigan, USA",
+    "Data Year": 2010,
+    "Accessibility Method": "E2SFCA with Gaussian decay and travel time constraints,
+    "Facility Type": "Primary care physicians,
+    "Demand Population": "Total population (later adjusted for high needs groups: age >50, <15, female headed households, poverty),
+    "Dist/Time Calc Method": "Euclidean and network-based travel time (ArcGIS 9.3 Network Analyst)",
+    "Transport Mode": "Driving,
+    "Travel Time Period": "Speed limits,
+    "Urbanization Rate": "metropolitan, micropolitan, small rural, isolated rural
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating healthcare accessibility under travel time uncertainty: A reliability-based floating catchment area approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2012 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "Tertiary and Secondary hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Driving (Taxi)",
+    "Travel Time Period": "five working days from 22 to 26 September 2014",
+    "Urbanization Rate": "Core urban, suburban, and rural"
+  }
+]
+[
+  {
+    "Literature Title": "Geographic accessibility to hospitals by public transport: comparing multi-mode and single-mode approaches",
+    "Study Area & Country": "Akwa Ibom State, Nigeria",
+    "Data Year": "2015 (Pop), 2016 (Hospitals)",
+    "Accessibility Method": "Multi-Mode SFCA and E2SFCA",
+    "Facility Type": "Tertiary, Secondary, and Primary hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 16.0)",
+    "Transport Mode": "Taxi, Boat, Mini bus, Walking",
+    "Travel Time Period": "",
+    "Urbanization Rate": "60% Rural/40% Urban"
+  }
+]
+[
+  {
+    "Literature Title": "Refining 2SVCA method for measuring telehealth accessibility of rural primary care physicians in Texas",
+    "Study Area & Country": "Texas, USA",
+    "Data Year": 2023,
+    "Accessibility Method": "2SVCA (with telehealth integration),
+    "Facility Type": "Primary care physicians (PCPs) including those providing telehealth services,
+    "Demand Population": "Total population (later adjusted for broadband subscription),
+    "Dist/Time Calc Method": "Distance (radians)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]

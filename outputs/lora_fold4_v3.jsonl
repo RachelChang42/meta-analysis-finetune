@@ -1,0 +1,231 @@
+[
+  {
+    "Literature Title": "Assessing the impact of hospital accessibility and non-hospital factors on the length of hospital stay for the elderly in China",
+    "Study Area & Country": "Chengdu, Sichuan Province, China",
+    "Data Year": "2011 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "E2SFCA",
+    "Facility Type": "General hospitals (including public and private)",
+    "Demand Population": "Elderly (65+)",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Network Analyst OpenStreetMap road network)",
+    "Transport Mode": "Walking from community to hospital",
+    "Travel Time Period": "Weekday 8 am",
+    "Urbanization Rate": "Core urban, new urbanization area, and peripheral urban area"
+  },
+  {
+    "Literature Title": "Assessing the impact of hospital accessibility and non-hospital factors on the length of hospital stay for the elderly in China",
+    "Study Area & Country": "Chengdu, Sichuan Province, China",
+    "Data Year": "2011 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "E2SFCA",
+    "Facility Type": "General hospitals (including public and private)",
+    "Demand Population": "Elderly (65+)",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Network Analyst OpenStreetMap road network)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Weekday 8 am",
+    "Urbanization Rate": "Core urban, new urbanization area, and peripheral urban area"
+  }
+]
+[
+  {
+    "Literature Title": "Modelling geographic accessibility to Cervical Cancer Prevention Services in Volta Region, Ghana",
+    "Study Area & Country": "Volta Region, Ghana",
+    "Data Year": 2016,
+    "Accessibility Method": "E2SFCA",
+    "Facility Type": "HPV testing, Clinics, Health facilities",
+    "Demand Population": "Women aged 30-64",
+    "Dist/Time Calc Method": "ArcGIS Network Analyst",
+    "Transport Mode": "Walking + Public transport",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  },
+  {
+    "Literature Title": "Modelling geographic accessibility to Cervical Cancer Prevention Services in Volta Region, Ghana",
+    "Study Area & Country": "Volta Region, Ghana",
+    "Data Year": 2016,
+    "Accessibility Method": "E2DRS",
+    "Facility Type": "HPV testing, Clinics, Health facilities",
+    "Demand Population": "Women aged 30-64",
+    "Dist/Time Calc Method": "ArcGIS Network Analyst",
+    "Transport Mode": "Walking + Public transport",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  },
+  {
+    "Literature Title": "Modelling geographic accessibility to Cervical Cancer Prevention Services in Volta Region, Ghana",
+    "Study Area & Country": "Volta Region, Ghana",
+    "Data Year": 2016,
+    "Accessibility Method": "E2W",
+    "Facility Type": "HPV testing, cervical visual inspection with acetic acid (VIA), colposcopy, and excisional precancer treatment (LEEP or cold knife cone biopsy)",
+    "Demand Population": "Women aged 30-64",
+    "Dist/Time Calc Method": "ArcGIS Network Analyst",
+    "Transport Mode": "Walking + Public transport",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating geographic accessibility to healthcare services under travel time uncertainty: A reliability-based floating catchment area approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2012 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "Tertiary and secondary hospitals",
+    "Demand Population": "Total permanent population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi (Private vehicles)",
+    "Travel Time Period": "07:40–08:40 and 17:40–18:40, Monday to Friday",
+    "Urbanization Rate": "Core urban, suburban, and rural"
+  }
+]
+[
+  {
+    "Literature Title": "Geographic accessibility to public oral health services in five Brazilian capitals: is there an association with the prevalence of dental caries?",
+    "Study Area & Country": "Five Brazilian capitals (Brasília, Fortaleza, Florianópolis, Belo Horizonte, Rio de Janeiro) and surrounding areas,
+    "Data Year": "2010–2011 (Pop), 2016 (Dental clinics)",
+    "Accessibility Method": "Proximity analysis (distance to nearest facility)",
+    "Facility Type": "Public dental clinics",
+    "Demand Population": "Children 5–9 years",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Online)",
+    "Transport Mode": "Walking + Public transport",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban"
+  }
+]
+[
+  {
+    "Literature Title": "Challenging terrains: socio-spatial dynamics of accessing health care for older adults with late-stage cancer in rural and isolated regions of New Zealand",
+    "Study Area & Country": "Tasman District, Canterbury, and West Coast region, New Zealand",
+    "Data Year": "2018-2022 (Pop)",
+    "Accessibility Method": "Travel times and frequency of service",
+    "Facility Type": "Acute hospital care (including emergency and inpatient care),
+                        Hospice care,
+                        Palliative care services,
+                        Home-based care and support services",
+    "Demand Population": "Patients with late-stage cancer (aged 65+)",
+    "Dist/Time Calc Method": "OSMnx (OpenStreetMap network) with street network; origin-destination matrix with 100m resolution spatial units (cells)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Real-time traffic conditions (using TomTom API)",
+    "Urbanization Rate": ""
+  }
+]
+[
+  {
+    "Literature Title": "Spatio-temporal patterns of healthcare service utilization among older adults in Volta Region, Ghana: a repeated cross-sectional ecological study using health facility data",
+    "Study Area & Country": "Volta Region, Ghana",
+    "Data Year": "2016 to 2022",
+    "Accessibility Method": "Travel time thresholds",
+    "Facility Type": "Public health facilities (primary, secondary, tertiary)",
+    "Demand Population": "Older adults (≥60 years)",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Online)",
+    "Transport Mode": "Walking or mechanized travel depending on facility type and individual characteristics",
+    "Travel Time Period": "Variable (dependent on traffic conditions and facility type)",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]
+[
+  {
+    "Literature Title": "An Equity Evaluation of Healthcare Accessibility across Age Strata Using the Gini Coefficient: A Case Study of Six Cities in Sichuan Province, China",
+    "Study Area & Country": "Chengdu, Karamay, Dazhou, Luzhou, Neijiang, and Yibin, Sichuan Province, China",
+    "Data Year": "2012–2015 (Pop), 2019 (Hospitals)",
+    "Accessibility Method": "Gaussian weight decay",
+    "Facility Type": "General hospitals, community healthcare centers, and community healthcare stations",
+    "Demand Population": "Total population (children, adults, seniors)",
+    "Dist/Time Calc Method": "Network analysis (Shortest path)",
+    "Transport Mode": "Walking + Public transit + Walking",
+    "Travel Time Period": "",
+    "Urbanization Rate": "First-tier cities (metropolitan) considered as urban, other as rural"
+  }
+]
+[
+  {
+    "Literature Title": "Assessments of spatial accessibility to healthcare services under travel time uncertainty: A reliability approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2013 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "General hospitals (including public and private)",
+    "Demand Population": "Total permanent population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi (Private vehicles)",
+    "Travel Time Period": "Peak hours (9:00-9:10, 17:50-18:00)",
+    "Urbanization Rate": "Core urban, suburban, and rural"
+  },
+  {
+    "Literature Title": "Assessments of spatial accessibility to healthcare services under travel time uncertainty: A reliability approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2013 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "General hospitals (including public and private)",
+    "Demand Population": "Total permanent population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi (Private vehicles)",
+    "Travel Time Period": "Off-peak hours (22:50-23:00)",
+    "Urbanization Rate": "Core urban, suburban, and rural"
+  }
+]
+[
+  {
+    "Literature Title": "Spatial Accessibility to Medical Services in Rural China: Does Telemedicine Make a Difference?",
+    "Study Area & Country": "Chishui, Guizhou, China",
+    "Data Year": "2012 (Pop), 2017 (Hospitals)",
+    "Accessibility Method": "SPAR",
+    "Facility Type": "Hospitals (Traditional, Telemedicine)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Network Analyst)",
+    "Transport Mode": "Walking + Telemedicine (Traditional travel mode applied to SPAR)",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Rural"
+  },
+  {
+    "Literature Title": "Spatial Accessibility to Medical Services in Rural China: Does Telemedicine Make a Difference?",
+    "Study Area & Country": "Chishui, Guizhou, China",
+    "Data Year": "2012 (Pop), 2017 (Hospitals)",
+    "Accessibility Method": "SPAR",
+    "Facility Type": "Hospitals (Traditional, Telemedicine)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS Network Analyst)",
+    "Transport Mode": "Walking + Telemedicine (Traditional travel mode applied to SPAR)",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Rural"
+  }
+]
+[
+  {
+    "Literature Title": "A model for measuring healthcare accessibility using the behavior of demand: a conditional logit model-based floating catchment area method",
+    "Study Area & Country": "Seoul, Korea",
+    "Data Year": "2010 (Pop), 2015 (Hospitals)",
+    "Accessibility Method": "Conditional logit-based floating catchment area (CL-FCA) method",
+    "Facility Type": "General hospitals, tertiary hospitals, and clinics",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi GPS trajectories (Big Data)",
+    "Transport Mode": "Taxi (Private travel)",
+    "Travel Time Period": "Off-peak periods (Weekday 9am-5pm, Weekend 11am-7pm)",
+    "Urbanization Rate": "Megacity"
+  }
+]
+[
+  {
+    "Literature Title": "An Enhanced Healthcare Accessibility Measure Considering the Temporal Dimension of Public Transit",
+    "Study Area & Country": "Shenyang central urban area (i.e., 10 districts), China",
+    "Data Year": "2018 (Pop), 2019 (Transit)",
+    "Accessibility Method": "Improved 3SFCA",
+    "Facility Type": "Tertiary and Secondary hospitals",
+    "Demand Population": "Total population excluding elderly over 60",
+    "Dist/Time Calc Method": "Public transit network (Metro and bus)",
+    "Transport Mode": "Public transit",
+    "Travel Time Period": "Off-peak period (Monday, 9:00)",
+    "Urbanization Rate": "Core urban, new urbanization, peripheral urban"
+  }
+]
+[
+  {
+    "Literature Title": "Refining 2SVCA: An Examination of the Stochastic Distribution of Spatial Access to Intensive Care Unit Beds during the COVID-19 Pandemic: A Case Study of the State of Michigan",
+    "Study Area & Country": "State of Michigan, USA",
+    "Data Year": "2020 (Pop), 2021 (Hospitals)",
+    "Accessibility Method": "E22b",
+    "Facility Type": "Hospitals (ICU beds)",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network-based (ArcGIS Network Analyst)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "24-hr period (slowest 10% of peak traffic)",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]

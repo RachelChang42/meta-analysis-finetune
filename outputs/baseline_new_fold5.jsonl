@@ -1,0 +1,174 @@
+```json
+{
+  "Literature Title": "Spatial access to Emergency General Surgery (EGS) services and EGS bypass behaviours in California",
+  "Study Area & Country": "California, USA",
+  "Data Year": "2213-2217",
+  "Accessibility Method": "["gravity model", "E2SFCA", "SPAR"],
+  "Facility Type": "["EGS hospitals", "EGG hospitals"],
+  "Demand Population": "["adult patients with a nonelective admission for a primary diagnosis of one of nine common EGS conditions", "ZCTA centroids"]
+  "Dist/Time Calc Method": [""],
+  "Transport Mode": ["Driving", "driving"],
+  "Travel Time Period": ["6-6 min driving zone", "0–11 min, 11–20 min, 25–31 min, 31–61 min"],
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Evaluating the accessibility to healthcare facilities under the Chinese hierarchical diagnosis and treatment system, Geospatial Health 219-221; 15995, Geospatial Health 216; 16995",
+  "Study Area & Country": "Zhongshan City, Guangdong Province, China, Zhongshan, China",
+  "Data Year": "218, 243, 219-221",
+  "Accessibility Method": "2SFCA method, H2SFCA method, gravity models, 2SFCA, 2SFCA method, H2SFCA, 2SFCA method",
+  "Facility Type": "tertiary-level hospitals, general and specialized obstetric units, primary facilities, secondary hospitals, tertiary hospitals, three levels of healthcare facilities",
+  "Demand Population": "Population, resident population at the village level",
+  "Dist/Time Calc Method": "travel impedance, Euclidean (straight-line) distances, transportation network, Amap API, Gaussian",
+  "Transport Mode": "N/A, N/A",
+  "Travel Time Period": "9 a.m. to 5 p.m. on workdays, N/A, different travel times or distance ranges",
+  "Urbanization Rate": "high, N/A"
+}
+```
+```json
+[
+  {
+    "Literature Title": "Evaluating geographic accessibility to COVID-19 vaccination across 54 countries/regions",
+    "Study Area & Country": "54 countries/regions across six continents, including nine from LMICs, Canada, the USA, Australia, the United Kingdom (UK), and two special administrative regions in China",
+    "Data Year": "21, 2223, 2225",
+    "Accessibility Method": "evaluated geographic accessibility to COVID-19 vaccination sites across 54 countries/regions using multiple metrics, Enhanced Two-Step Floating Catchment Area (E2SFCA) method, K-Dimensional Tree (KDtree), Open-Source Routing Machine (OS
+    "Facility Type": "COVID-19 vaccination sites, vaccination sites, vaccine sites",
+    "Demand Population": "Population within 1 km grids, population grid, population residing beyond certain travel times, Population",
+    "Dist/Time Calc Method": "Driving time, travel time, Gaussian distance decay function",
+    "Transport Mode": "driving, driving, driving",
+    "Travel Time Period": "15 min, 66 min, 15 min, 31 min, 61 min, 15 min, 31 min",
+    "Urbanization Rate": "N/A"
+  }
+]
+```
+```json
+{
+  "Literature Title": "Assessment of primary healthcare accessibility and inequality in north-eastern Kazakhstan",
+  "Study Area & Country": "north-eastern part of Kazakhstan, Semey, East Kazakhstan and Pavlodar Region, Bayanaul, May and Aktogay in Pavlodar, Kazakhstan, East Kazakhstan Region, Pavlodar Region, the regions of East Kazakhstan and Pavlodar, Kazakhstan",
+  "Data Year": "2003, 2809, 2821, 2816, 2822",
+  "Accessibility Method": "enhanced two-step float catchment area, two-step float catchment area (2SFCA) method, Enhanced two-step float catchment area (E2SFCA) method, E2SFCA",
+  "Facility Type": "primary health care, primary care physicians, PHC facilities, clinics, polyclinics, private PHC polyclinics, PHCs, PHC facilities, PHC",
+  "Demand Population": "",
+  "Dist/Time Calc Method": "continuous distance decay functions, Distance decay functions, Gaussian weights, threshold travel time or distance, travel times or distances from the centroids of the population-weighted census tract, Continuous Gaussian distance-decay function, travel time, Gaussian distance-decay function",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "N"
+}
+```
+```json
+{
+  "Literature Title": "The Journal of the American Medical Informatics Association, 221, Vol. 28, No. 11",
+  "Study Area & Country": "Vermont, USA",
+  "Data Year": "221",
+  "Accessibility Method": "2-step floating catchment area, 2-step virtual catchment area",
+  "Facility Type": "h hospitals",
+  "Demand Population": "U.S. Census Block level data",
+  "Dist/Time Calc Method": "travel time of 60 minutes, distance decay function",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "descriptive"
+}
+```
+```json
+{
+  "Literature Title": "Measuring spatial accessibility to healthcare services with constraint of administrative boundary: a case study of Yanqing District, Beijing, China",
+  "Study Area & Country": "Yanqing District, Beijing, China",
+  "Data Year": "218",
+  "Accessibility Method": "2SFCA, G2SFCA",
+  "Facility Type": "general hospitals, community healthcare centers and stations, community healthcare centers, general hospitals, community healthcare stations, CHC, CHS, GH, GHs, CHCs, CHSs",
+  "Demand Population": "village-level population, villages within the town-level administrative boundaries, villages outside the town-level administrative boundaries",
+  "Dist/Time Calc Method": "physical distance/travel time, distance-decay parameter, distance-decay function, nearest travel distance from demand node to facility via the road network, MATLAB (version 2115a)",
+  "Transport Mode": "road",
+  "Travel Time Period": "",
+  "Urbanization Rate": "Yanqing District, Beijing, China"
+}
+```
+```json
+{
+  "Literature Title": "An Examination of the Stochastic Distribution of Spatial Accessibility to Intensive Care Unit Beds During the COVID-19 Pandemic: A Case Study of the Greater Houston Area of Texas",
+  "Study Area & Country": "Greater Houston area of Texas, USA",
+  "Data Year": "2022",
+  "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA) method",
+  "Facility Type": "intensive care unit (ICU) beds",
+  "Demand Population": "LandScan, a database of estimated global population distribution",
+  "Dist/Time Calc Method": "travel time on the road network",
+  "Transport Mode": "",
+  "Travel Time Period": "11 subzones with different travel time ranges",
+  "Urbanization Rate": "Greater Houston area"
+}
+```
+```json
+{
+  "Literature Title": "BioMed Research International",
+  "Study Area & Country": "rural county in China, Xiantao, a rural county in the mid-south of Hubei Province, China, Area around county seat, China, capital city of Hubei Province, China",
+  "Data Year": "2011, 4, 6, 214",
+  "Accessibility Method": "2SFCA, 2SFCA-based accessibility index, Vintage Flexible Capacitated Location Problem (ViFFCLP), quadratic programming (QP), particle swarm optimization (PSO), two-step optimization, travel distance from the nearest hospital, 2SO4SAI",
+  "Facility Type": "Hospitals, Settlements, Townships, township-level hospitals, county-level hospitals, hospitals",
+  "Demand Population": "647 village-level settlements, rural residents",
+  "Dist/Time Calc Method": "shortest-path road network distance, inverse distance weighted (IDW) method, distance decay function, power function (gravity kernel), minimize total travel distance, tSFCA",
+  "Transport Mode": "electric motorcycles",
+  "Travel Time Period": "30 minutes, 2 hours",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  {
+    "Literature Title": "The 3SFCA method for evaluating spatial access to primary care physicians in the Austin–San Antonio corridor, central Texas",
+    "Study Area & Country": "Austin–San Antonio corridor, central Texas, USA",
+    "Data Year": "2000-2211",
+    "Accessibility Method": "3SFCA, E2SFCA",
+    "Facility Type": "Primary Care Physicians, Primary care providers (PCPs)",
+    "Demand Population": "Local population, census tracts",
+    "Dist/Time Calc Method": "Gaussian weight, travel time",
+    "Transport Mode": "driving, N/A",
+    "Travel Time Period": "30-66 minutes, N/A",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+  "Literature Title": "BMC Health Services Research",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2018",
+  "Accessibility Method": "multi-modal 2SFCA",
+  "Facility Type": "h/hospitals",
+  "Demand Population": "",
+  "Dist/Time Calc Method": "Gaussian function",
+  "Transport Mode": "car, transit",
+  "Travel Time Period": "",
+  "Urbanization Rate": "urbanization rate not specified"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Geographic variation in spatial accessibility of U.S. healthcare providers",
+    "Study Area & Country": "contiguous United States",
+    "Data Year": "2019",
+    "Accessibility Method": "VE2SFCA method",
+    "Facility Type": "internal medicine and family medicine physicians",
+    "Demand Population": "",
+    "Dist/Time Calc Method": "",
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+  "Literature Title": "Spatial accessibility of primary health care utilising the two step floating catchment area method: an assessment of recent improvements",
+  "Study Area & Country": "Victoria, Australia",
+  "Data Year": "2012",
+  "Accessibility Method": "two step floating catchment area (2SFCA) method",
+  "Facility Type": "GP services",
+  "Demand Population": "Community population",
+  "Dist/Time Calc Method": "distance-decay functions",
+  "Transport Mode": "Road",
+  "Travel Time Period": "61 minutes",
+  "Urbanization Rate": "N"
+}
+```

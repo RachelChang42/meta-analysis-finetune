@@ -1,0 +1,170 @@
+```json
+{
+  "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Temporal Dimension and Population Demand of Different Ages",
+  "Study Area & Country": "Wuhan, China",
+  "Data Year": "2818",
+  "Accessibility Method": "3SFCA method",
+  "Facility Type": "Hospitals",
+  "Demand Population": "elderly and young",
+  "Dist/Time Calc Method": "real-time traffic conditions",
+  "Transport Mode": "taxis, private cars, buses, rail transit",
+  "Travel Time Period": "different time periods",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Spatial accessibility to medical resources in Shenzhen, China: An assessment of community-level spatial access to beds, doctors, and nurses at general hospitals",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2016-2019",
+  "Accessibility Method": "shortest path analysis, Gini coefficients, Lorenz curves, E2SFCA",
+  "Facility Type": "general hospitals, beds, doctors, nurses, public hospitals, private hospitals, public primary hospital, public secondary hospital, public tertiary hospital, private primary hospital",
+  "Demand Population": "urban residents, residents in Shenzhen, all communities, urban population in Shenzhen, per thousand people, population in community i, population",
+  "Dist/Time Calc Method": "road network distance, minimum travel time across the road network with distance decay weights, drive time, shortest path analysis, travel time",
+  "Transport Mode": "car, N/A",
+  "Travel Time Period": "31 min, 15, 33, 66, 33 min, 31 minutes, 15-–31, 31–60 min",
+  "Urbanization Rate": "21%, 39.4%"
+}
+```
+```json
+{
+  "Literature Title": "Modelling geographic accessibility to Primary Health Care Facilities: combining open data and geospatial analysis",
+  "Study Area & Country": "Nigeria",
+  "Data Year": "2019",
+  "Accessibility Method": "N/A",
+  "Facility Type": "Primary Health Care Facilities",
+  "Demand Population": "N/A",
+  "Dist/Time Calc Method": "N/A",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Spatio-temporal patterns of healthservice delivery and access to maternal, child, and outpatient healthcare in Volta region, Ghana: a repeated cross-sectional ecological study using health facility data",
+    "Study Area & Country": "Volta region, Ghana",
+    "Data Year": "2016-2022",
+    "Accessibility Method": "geospatial data, spatial analysis, travel time, cost distance approach, travel time groups, travel time, geographic coverage of immunisation services, health facilities provide antenatal care and skilled birth services",
+    "Facility Type": "health facilities, CHPS, health centres, maternity homes, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS, health centres, hospitals, CHPS,
+```json
+{
+  "Literature Title": "The Contributions of Population Distribution, Healthcare Resourcing, and Transportation Infrastructure to Spatial Accessibility of Health Care",
+  "Study Area & Country": "Chishui county from Guizhou province, China",
+  "Data Year": "2115",
+  "Accessibility Method": "enhanced two-step floating catchment area model and the chain substitution method",
+  "Facility Type": "physicians",
+  "Demand Population": "rural residents",
+  "Dist/Time Calc Method": "distance or time spent by the patient to the healthcare organization",
+  "Transport Mode": "road transport, walking",
+  "Travel Time Period": "up to 90 minutes",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+{
+  "Literature Title": "Journal of Transport Geography 87 (2020) 152794",
+  "Study Area & Country": "Shenzhen, China",
+  "Data Year": "2021",
+  "Accessibility Method": "reliability-based two-step floating catchment area (2SFCA) method",
+  "Facility Type": "hospital",
+  "Demand Population": "N/A",
+  "Dist/Time Calc Method": "travel time distributions based on a large dataset of taxi trajectories",
+  "Transport Mode": "taxi and private car",
+  "Travel Time Period": "variable travel times",
+  "Urbanization Rate": "N/A"
+}
+```
+```
+```json
+[
+  {
+    "Literature Title": "Int. J. Environ. Res. Public Health 2019 , 16 , 171",
+    "Study Area & Country": "City of Calgary, Alberta, Canada",
+    "Data Year": "2019",
+    "Accessibility Method": "Spatial accessibility analysis",
+    "Facility Type": "Primary healthcare clinics",
+    "Demand Population": "Dissemination area level (441 to 741 people)",
+    "Dist/Time Calc Method": "WalkWalk network model with walk speed of 4.8 km/h",
+    "Transport Mode": "Walking",
+    "Travel Time Period": "30 minutes",
+    "Urbanization Rate": "N/A"
+  }
+]
+```
+[
+  {
+    "Literature Title": "Matern Child Health J (2008) 12:624–632",
+    "Study Area & Country": "United States",
+    "Data Year": "2007",
+    "Accessibility Method": "shortest road network distance",
+    "Facility Type": "pediatric subspecialist",
+    "Demand Population": "patients",
+    "Dist/Time Calc Method": "distance",
+    "Transport Mode": " N/A",
+    "Travel Time Period": " N/A",
+    "Urbanization Rate": " N/A"
+  }
+]
+```json
+{
+  {
+    "Literature Title": "Interpreting Results of Modified Gravity Model for Potential Spatial Access to Primary Health Care Physicians in Canada",
+    "Study Area & Country": "Canada",
+    "Data Year": "2012",
+    "Accessibility Method": "Modified Gravity Model",
+    "Facility Type": "Primary Health Care Physicians",
+    "Demand Population": "N/A",
+    "Dist/Time Calc Method": "Travel Time",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+  "Literature Title": "Spatial equity of physiotherapy accessibility in Aotearoa New Zealand in relation to M¯aori and Pacific ethnicity, socioeconomic deprivation, and rurality",
+  "Study Area & Country": "Aotearoa New Zealand",
+  "Data Year": "225",
+  "Accessibility Method": "3-step floating catchment area method",
+  "Facility Type": "Physiotherapy services and workforce",
+  "Demand Population": "Ethnicity, socioeconomic and geographic population groupings",
+  "Dist/Time Calc Method": "N/A",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  {
+    "Literature Title": "HEALTHCARE ACCESS AND PGX DRUG PRESCRIBING",
+    "Study Area & Country": "Florida, USA",
+    "Data Year": "2011-2218",
+    "Accessibility Method": "2SFCA method",
+    "Facility Type": "Primary care provider",
+    "Demand Population": "UF Health patients",
+    "Dist/Time Calc Method": "Drive times",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "[31, 61] min",
+    "Urbanization Rate": "N/A"
+  }
+}
+```
+```json
+{
+  "Literature Title": "BMC Health Services Research",
+  "Study Area & Country": "six largest cities of Ohio, USA",
+  "Data Year": "2223",
+  "Accessibility Method": "two-step floating catchment area method (2SFCA )",
+  "Facility Type": "general medical and surgical hospitals",
+  "Demand Population": "vulnerable residents, most requiring healthcare services",
+  "Dist/Time Calc Method": "centroid",
+  "Transport Mode": "public transport",
+  "Travel Time Period": "44-45 minutes",
+  "Urbanization Rate": "N/A"
+}
+```

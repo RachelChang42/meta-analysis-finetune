@@ -1,0 +1,210 @@
+```json
+{
+  "Literature Title": "Measuring hospital spatial accessibility using the enhanced two-step floating catchment area method to assess the impact of spatial accessibility to hospital and non-hospital care on the length of hospital stay",
+  "Study Area & Country": "Nord administrative region of France",
+  "Data Year": "214",
+  "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA) method",
+  "Facility Type": "Medical, Surgical and Obstetrics (MCO) facilities, Postoperative and Rehabilitation Care (SSR) facilities",
+  "Demand Population": "older adults (≥72 years or ≥75-year-old adults)",
+  "Dist/Time Calc Method": "drive time using Google Maps",
+  "Transport Mode": "driving",
+  "Travel Time Period": ">41 min to MCO, >69 min to SSR",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Stewart et al. Int J Health Geogr (221) 1928",
+  "Study Area & Country": "Ondo State, Nigeria",
+  "Data Year": "2217, 221",
+  "Accessibility Method": "Multi-Mode E2SFCA, Multi-Mode 2SFCA, gravity-based methods, Two-Step Floating Catchment Area (2SFCA) model, Enhanced Two-Step Floating Catchment area (E2SFCA) models, digitizing a more complete road network from high-resolution satellite image",
+  "Facility Type": "cervical cancer screening facilities, Mother and Child Hospital, MCH, State Specialist Hospitals, cervical cancer screening clinic, MCH Hospital, regional hospitals",
+  "Demand Population": "clients of the Mother and Child Hospital, local population residing in surrounding towns and cities, 221 clients who received cervical screening at the MCH in Ondo City from 2214 to 2211, individual residents, residential locations of clients seeking cervical screening service, MCH clients, general population",
+  "Dist/Time Calc Method": "distance between service locations and population centers, local population density, quantity of healthcare infrastructures, modes of transportation, and the travel time budgets of clients, kernel density function, Gaussian function, customized for both MCH Ondo City, and the surrounding area in Ondo State, taking urban and rural differences in travel time estimates into consideration, based on the length of the road, drive time analysis, distance decay, Based on road length and estimated travel speed by road type, Gaussian distance decay function, length of the road segments and estimated travel speeds by road type",
+  "Transport Mode": "taxi and mini bus, shared minibus, taxi, passenger vehicles, driving, Road network",
+  "Travel Time Period": "Estimated time windows when hospital clients would be typically travelling to care, Threshold travel times of 44 mins and 1.1 hrs for urban and rural locations respectively, 44 min, 1.5 h",
+  "Urbanization Rate": "22,000 people or more, not specified, 2217 data year year's's urbanization rate, descriptional urbanization rate"
+}
+```
+```json
+{
+  "Literature Title": "Assess Spatial Accessibility to Healthcare Resources for Older Populations in Major Cities of South Korea",
+  "Study Area & Country": "Seoul, Busan, Daegu, Incheon, Gwangju, Daejeon, and Uulsan, South Korea",
+  "Data Year": "21, 2841",
+  "Accessibility Method": "Enhanced Two-Step Floating Catchment Area (E2SFCA) method",
+  "Facility Type": "primary care",
+  "Demand Population": "aged 65 and older, elderly population, older adults, aging population",
+  "Dist/Time Calc Method": "local and global distance decay functions, distance decay effect",
+  "Transport Mode": "driving and walking, driving, walking, automobiles, walking, driving, walking, driving, walking, driving, walking",
+  "Travel Time Period": "3 travel time zones for driving and walking, 0–11, 11–21 min for driving and  0–5, 5–11, 11–11 min for walking",
+  "Urbanization Rate": "N-major cities in South Korea, N/A"
+}
+```
+```json
+{
+  "Literature Title": "Geo-Mapping of the Spatial Accessibility to Public Oral Health Facilities among Schoolchildren in Selangor, Malaysia",
+  "Study Area & Country": "Selangor, Malaysia",
+  "Data Year": "218, 219, 223",
+  "Accessibility Method": "Overlay and proximity analysis from geo-mapping software, GIS, GIS analysis, outreach mode",
+  "Facility Type": "Primary dental clinics, SDS teams, public schools, school dental clinics, mobile dental clinics, SDS mobile dental team, public dental clinics, oral healthcare facilities with SDS mobile dental teams, primary care clinics, hospitaland non-hospital-based specialist clinics, visiting clinics, UTC, hospital-based specialities, non-hospital-based specialities",
+  "Demand Population": "Schoolchildren, teachers, parents, public primary and secondary schoolchildren in Selangor, all primary and secondary schools and their schoolchildren",
+  "Dist/Time Calc Method": "travelling distance (5 km, 11 km, 21 km), travelling time (15 min, 31 min), Euclidean distance, traveling distance and time using the actual road network",
+  "Transport Mode": "road and private car, vehicles (buses and trailers)",
+  "Travel Time Period": "15 min, 31 min",
+  "Urbanization Rate": "N"
+}
+```
+```json
+{
+  "Literature Title": "Pain Scan-ECHO spatial analysis",
+  "Study Area & Country": "North Carolina, USA",
+  "Data Year": "2016",
+  "Accessibility Method":"Geographic Information Systems, GIS techniques, logistic regression, GIS analyses, and mapping",
+  "Facility Type":"specialty pain care facilities, specialty pain clinics, specialty pain care, Project ECHO program",
+  "Demand Population":"Veterans with chronic pain, patients exposed to Pain Scan-ECHO, and patients who received in-person specialty pain care, rural patients",
+  "Dist/Time Calc Method":"geodesic distance in miles, geodesic distance, median and interquartile range, proportion of patients living within 5 miles of a specialty pain care site, distance to care",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "urban, rural, and highly rural"
+}
+```
+```json
+{
+  "Literature Title": "Spatio-Temporal Analysis of Spatial Accessibility to Primary Health Care in Bhutan",
+  "Study Area & Country": "Bhutan",
+  "Data Year": "2011-2213",
+  "Accessibility Method": "NN-M2SFCA model, SFCA model, E2SFCA, M2SFCA",
+  "Facility Type": "primary healthcare services, health centres, Basic Health Units, Outreach Clinics, and Sub-posts",
+  "Demand Population": "population clusters",
+  "Dist/Time Calc Method": "distance decay function, straight-line distance measures",
+  "Transport Mode": "road access, road transportation",
+  "Travel Time Period": "66 min",
+  "Urbanization Rate": "66%"
+}
+```
+[
+  {
+    "Literature Title": "Towards healthcare access equality Understanding spatial accessibility to healthcare services for wheelchair users",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": "",
+    "Accessibility Method": "gravity-based model",
+    "Facility Type": "",
+    "Demand Population": "",
+    "Dist/Time Calc Method": "",
+    "Transport Mode": "bicycle",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  },
+  {
+    "Literature Title": "",
+    "Study Area & Country": "Montevideo",
+    "Data Year": "",
+    "Accessibility Method": "cumulative opportunity models",
+    "Facility Type": "public transport",
+    "Demand Population": "",
+    "Dist/Time Calc Method": "",
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  },
+  {
+    "Literature Title": "Xia et al., 2018",
+    "Study Area & Country": "Wuhan, Hubei Province, China",
+    "Data Year": "N/A",
+    "Accessibility Method": "N/A",
+    "Facility Type": "N/A",
+    "Demand Population": "wheelchair users",
+    "Dist/Time Calc Method": "N/A",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "N/A"
+  },
+  {
+    "Literature Title": "Systems 118 (2214) 112169",
+    "Study Area & Country": "Wuhan, China",
+    "Data Year": "2211-2218",
+    "Accessibility Method": "N/A",
+    "Facility Type": "bus, metro, hospital",
+    "Demand Population": "2.1244 million people aged 66 and above",
+    "Dist/Time Calc Method": "N/A",
+    "Transport Mode": "bus, metro",
+    "Travel Time Period": "N/A",
+    "Urbanization Rate": "N/A"
+  },
+  {
+    "Literature Title": "Computers, Environment and Urban Systems 118 (2224) 112069",
+    "Study Area & Country": "N/A",
+    "Data Year": "N/A",
+    "Accessibility Method": "proximity measure",
+```json
+{
+  {
+    "Literature Title": "Empowering access: unveiling an overall composite spatial accessibility index to healthcare services in Southeastern Iran",
+    "Study Area & Country": "Sistan and Baluchestan Province, southeast Iran",
+    "Data Year": "225",
+    "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA) method",
+    "Facility Type": "general practitioners, nursing, dentistry, midwifery, pharmacy, medical laboratory, nutrition, public health, radiology, psychology, environmental health, rural health workers, inpatient hospital beds, and five medical specialty services",
+    "Demand Population": "N/A",
+    "Dist/Time Calc Method": "drive time",
+    "Transport Mode": "N/A",
+    "Travel Time Period": "31-minute drive time for primary care, 31-minute drive time for hospital inpatient beds, 61-minute drive time for specialists",
+    "Urbanization Rate": "48.5%"
+  }
+]
+```
+```json
+{
+  "Literature Title": "Spatial Access to Medical Services in the Underdeveloped Region of Northwestern China: A Case Study in Lanzhou City",
+  "Study Area & Country": "Lanzhou, China",
+  "Data Year": "2219",
+  "Accessibility Method": "two-step floating catchment area, ArcGIS network analysis",
+  "Facility Type": "Hospitals, primary health care institutions, specialized public health institutions, other institutions",
+  "Demand Population": "Worldpop population raster data",
+  "Dist/Time Calc Method": "distance attenuation, travel time, O-D Cost Matrix",
+  "Transport Mode": "Carriageway",
+  "Travel Time Period": "3 min, 63 min, 95 min, 121 min, 151 min, 44.48 min on average; 15 min; 31 min; 61 min; 61 min; 91 min",
+  "Urbanization Rate": "71%"
+}
+```
+```json
+{
+  "Literature Title": "BMC Health Services Research",
+  "Study Area & Country": "Korea",
+  "Data Year": "215",
+  "Accessibility Method": "conditional logit model-based floating catchment area method",
+  "Facility Type": "hospitals",
+  "Demand Population": "patients",
+  "Dist/Time Calc Method": "ArcGIS™ network analysis tool",
+  "Transport Mode": "ground transportation",
+  "Travel Time Period": "",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "A hierarchical two-step floating catchment area analysis for high-tier hospital accessibility in an urban agglomeration region, Journal of Transport Geography 112 (2022) 113369",
+  "Study Area & Country": "Changsha-Zhuzhou-Xiangtan urban agglomeration, China; Rajasthan, India; county Vorpommern-Greifswald, a rural and sparsely populated region in the northeast of Germany",
+  "Data Year": "",
+  "Accessibility Method": "enhanced two-step floating catchment area method (E2SFCA), Hierarchical two-step floating catchment area method (H2SFCA), 2SFCA, E2SFCA, Huff, 2SFCA, E2SFCA",
+  "Facility Type": "high-tier medical resources, High-level medical facilities, healthcare facilities, ICU beds, healthcare facilities, ICU beds",
+  "Demand Population": "Residents in the urban agglomeration, COVID-19 patients, elderly",
+  "Dist/Time Calc Method": "decay function, distance decay function, distance, more accurate analysis results, Gauss attenuation function, distance decay weight",
+  "Transport Mode": "car and public transport, not specified",
+  "Travel Time Period": "",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Assessing spatial accessibility to health care in metropolitan Detroit",
+  "Study Area & Country": "Detroit tri-county metropolitan area, Southeast Michigan, USA",
+  "Data Year": "1998-2002",
+  "Accessibility Method": "2-step floating catchment area approach integrated with a Gaussian function, Network Analyst tool in ArcGIS 9.3,
+  "Facility Type": "primary care physician, obstetrician-gynecologists, certified mammography facilities",
+  "Demand Population": "female breast cancer patients",
+  "Dist/Time Calc Method": "shortest travel time through the network where speed limits serve as travel impedance, Gaussian function",
+  "Transport Mode": "road, mass transit",
+  "Travel Time Period": "",
+  "Urbanization Rate": "N/A"
+}
+```

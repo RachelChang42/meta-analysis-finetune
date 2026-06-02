@@ -1,0 +1,194 @@
+[
+  {
+    "Literature Title": "An Equity Evaluation of Healthcare Accessibility across Age Groups: A Case Study of Chishui, China",
+    "Study Area & Country": "Chishui, Guizhou, China",
+    "Data Year": 2014,
+    "Accessibility Method": "E2SFCA",
+    "Facility Type": "Hospitals (general, specialized), clinics, village health stations, township health centers",
+    "Demand Population": "Total population, aged 15–60, 60+",
+    "Dist/Time Calc Method": "Road network analysis (ArcGIS 10.3); driving and walking",
+    "Transport Mode": "Driving, Walking",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Rural"
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating the accessibility to healthcare facilities under travel time uncertainty: A reliability-based floating catchment area approach",
+    "Study Area & Country": "Shenzhen, China",
+    "Data Year": "2012 (Pop), 2014 (Hospitals)",
+    "Accessibility Method": "Reliability-based 2SFCA",
+    "Facility Type": "General hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+    "Transport Mode": "Taxi",
+    "Travel Time Period": "five working days from 22 to 26 September 2014",
+    "Urbanization Rate": "Core urban, suburban, and rural"
+  }
+]
+[
+  {
+    "Literature Title": "A relative spatial access assessment approach for analyzing potential spatial access to colorectal cancer services in Texas",
+    "Study Area & Country": "Texas, USA",
+    "Data Year": 2000,
+    "Accessibility Method": "RBF neural network",
+    "Facility Type": "primary care physicians (PCPs), CRC screening facilities, oncologists",
+    "Demand Population": "Total population (non-Hispanic white, non-Hispanic black, Hispanic, Asian, Native American)",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 9.3 Network Analyst)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Speed limits",
+    "Urbanization Rate": "metropolitan, micropolitan, small rural, isolated rural"
+  }
+]
+[
+  {
+    "Literature Title": "Cervical Cancer Screening Disparities: Spatial Accessibility versus Spatial Utilization",
+    "Study Area & Country": "New Mexico, USA",
+    "Data Year": "2000 (Pop), 2009 (Screening)",
+    "Accessibility Method": "Distance to nearest facility",
+    "Facility Type": "Cervical cancer screening facilities",
+    "Demand Population": "Women aged 18+",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 9.3 Network Analyst)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Speed limits",
+    "Urbanization Rate": "Urban/rural mix"
+  },
+  {
+    "Literature Title": "Cervical Cancer Screening Disparities: Spatial Accessibility versus Spatial Utilization",
+    "Study Area & Country": "New Mexico, USA",
+    "Data Year": "2000 (Pop), 2009 (Screening)",
+    "Accessibility Method": "Nearest distance to screening facility (mammography and Papanicolaou test)",
+    "Facility Type": "Mammography facilities, Cervical cancer screening sites",
+    "Demand Population": "Women aged 18+",
+    "Dist/Time Calc Method": "Euclidean distance using road network (Network Analyst, ArcGIS 9.3)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]
+[
+  {
+    "Literature Title": "Geographic variation in ESRD prevalence: contributions of population characteristics, acuity of illness at diagnosis, and access to care",
+    "Study Area & Country": "Fourteen states in the contiguous US (California, Colorado, Florida, Georgia, Kentucky, Michigan, New Jersey, Ohio, Pennsylvania, Tennessee, Virginia, Washington, West Virginia, and Wisconsin)",
+    "Data Year": "2005–2009,
+    "Accessibility Method": "ZCTA travel time to nearest facility,
+    "Facility Type": "Hemodialysis clinics and transplantation hospitals,
+    "Demand Population": "End-stage renal disease (ESRD) patients,
+    "Dist/Time Calc Method": "Google Maps API,
+    "Transport Mode": "Driving,
+    "Travel Time Period": "4 PM, Friday,
+    "Urbanization Rate": "Urbanized metropolitan areas vs. non-urban/rural
+  }
+]
+[
+  {
+    "Literature Title": "Spatio-temporal analysis of spatial accessibility to multi-tier public healthcare services in Bhutan",
+    "Study Area & Country": "Bhutan",
+    "Data Year": "2010–2012 (Pop), 2020 (Healthcare),
+    "Accessibility Method": "NN-MFCA",
+    "Facility Type": "Public healthcare (primary, secondary, tertiary)",
+    "Demand Population": "Total, Rural, Urban populations",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 10.5)",
+    "Transport Mode": "Walking",
+    "Travel Time Period": "",
+    "Urbanization Rate": "Urban/rural mix"
+  }
+]
+[
+  {
+    "Literature Title": "Geographic variation in spatial accessibility of U.S. healthcare providers",
+    "Study Area & Country": "Contiguous United States",
+    "Data Year": "2009 (Pop), 2014 (Healthcare providers)",
+    "Accessibility Method": "VEGF",
+    "Facility Type": "Medical providers including primary care physicians (internal medicine and family medicine), specialists, and nurse practitioners.",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 10.5)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Speed limits",
+    "Urbanization Rate": "5-category categorization of metropolitan status"
+  }
+]
+[
+  {
+    "Literature Title": "Challenging terrains: socio-spatial analysis of Primary Health Care Access Disparities in Imperial County, California",
+    "Study Area & Country": "Imperial County, California, USA",
+    "Data Year": "2012-2016 (Pop), 2017 (Sites)",
+    "Accessibility Method": "Modified E22 method",
+    "Facility Type": "Primary care sites",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Network analysis (ArcGIS 10.5)",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "Speed limits",
+    "Urbanization Rate": "Rural"
+  }
+]
+[
+  {
+    "Literature Title": "Evaluating geographic accessibility to COVID-19 vaccination across 54 countries/regions",
+    "Study Area & Country": "54 countries/regions",
+    "Data Year": "2020 (Pop), 2021-present (Sites)",
+    "Accessibility Method": "travel time to nearest facility",
+    "Facility Type": "COVID-19 vaccination sites",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "OSRM API",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "fastest route (workweek)",
+    "Urbanization Rate": ""
+  }
+]
+[
+  {
+    "Literature Title": "Hemodialysis facilities: are public policies really reaching the peripherical patients?",
+    "Study Area & Country": "Mato Grosso do Sul State, Brazil",
+    "Data Year": 2012,
+    "Accessibility Method": "Distance to nearest facility (travel distance)",
+    "Facility Type": "Hemodialysis clinics (dialysis services)",
+    "Demand Population": "Patients on hemodialysis (chronic renal failure)",
+    "Dist/Time Calc Method": "Google Maps API",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  }
+]
+[
+  {
+    "Literature Title": "Cross-border spatial accessibility of health care in the North-East Department of Haiti: a client-based analysis of access to primary health care services along the Haiti–Dominican Republic border",
+    "Study Area & Country": "North-East Department, Haiti and bordering areas of Dominican Republic",
+    "Data Year": "2012-2014",
+    "Accessibility Method": "Multi-modal E2SFCA",
+    "Facility Type": "primary health care services including health houses, clinics, and hospitals",
+    "Demand Population": "Total population",
+    "Dist/Time Calc Method": "Google Maps API",
+    "Transport Mode": "car (for hospitals and clinics), walking (for health houses)",
+    "Travel Time Period": "",
+    "Urbanization Rate": "60% rural"
+  }
+]
+[
+  {
+    "Literature Title": "An Enhanced Variable Two-Step Floating Catchment Area Method for Measuring Spatial Accessibility to Residential Care Facilities",
+    "Study Area & Country": "Nanjing, China",
+    "Data Year": 2010,
+    "Accessibility Method": "Enhanced Variable 2SFCA",
+    "Facility Type": "Residential care facilities for the elderly",
+    "Demand Population": "Elderly (>=60)",
+    "Dist/Time Calc Method": "Network analysis using road network data",
+    "Transport Mode": "Driving",
+    "Travel Time Period": "",
+    "Urbanization Rate": "urban"
+  }
+]
+[
+  {
+    "Literature Title": "Spatio-temporal patterns of health service delivery and access to maternal healthcare in Volta Region, Ghana: a repeated cross-sectional ecological study using health facility data",
+    "Study Area & Country": "Volta Region, Ghana",
+    "Data Year": "2016, 2022",
+    "Accessibility Method": "Travel time to nearest facility",
+    "Facility Type": "maternal healthcare",
+    "Demand Population": "women of childbearing age (WoCBA)",
+    "Dist/Time Calc Method": "OSRM API",
+    "Transport Mode": "speed-rated roads and walking",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  }
+]

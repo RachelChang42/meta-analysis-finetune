@@ -1,0 +1,44 @@
+```json
+{
+  "Literature Title": "Measuring hospital spatial accessibility using the enhanced two-step floating catchment area method to assess the impact of spatial accessibility to hospital and non-hospital care on the length of hospital stay",
+  "Study Area & Country": "Nord administrative region of France",
+  "Data Year": "2014",
+  "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA) method",
+  "Facility Type": "Medical, Surgical and Obstetrics (MCO) facilities, Postoperative and Rehabilitation Care (SSR) facilities",
+  "Demand Population": "older adults (≥72 years)",
+  "Dist/Time Calc Method": "N/A",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Modeling spatial access to cervical cancer screening services in Ondo State, Nigeria",
+  "Study Area & Country": "Ondo State, Nigeria",
+  "Data Year": "2215",
+  "Accessibility Method": "Multi-Mode Enhanced Two-Step Floating Catchment Area model",
+  "Facility Type": "cervical cancer screening services",
+  "Demand Population": "clients of the hospital in Ondo City",
+  "Dist/Time Calc Method": "distance between service locations and population centers, local population density, quantity of healthcare infrastructures, modes of transportation, and the travel time budgets of clients",
+  "Transport Mode": "taxi and mini bus",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "69% urban, 31% rural"
+}
+```
+```json
+{
+  {
+    "Literature Title": "Exploring Spatial Mismatch between Primary Care and Older Populations in an Aging Country: A Case Study of South Korea",
+    "Study Area & Country": "South Korea",
+    "Data Year": "N/A",
+    "Accessibility Method": "E2SFCA method",
+    "Facility Type": "primary care",
+    "Demand Population": "aged 66 and older",
+    "Dist/Time Calc Method": "distance decay",
+    "Transport Mode": "driving, walking",
+    "Travel Time Period": "33-min driving, 15-min walking",
+    "Urbanization Rate": "N/A"
+  }
+}
+```

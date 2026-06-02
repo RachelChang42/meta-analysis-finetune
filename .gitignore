@@ -100,8 +100,8 @@ desktop.ini
 checkpoints/
 models/
 data/
-logs/
-outputs/
+# logs/
+# outputs/
 *.ckpt
 *.pth
 *.pt
@@ -117,7 +117,7 @@ outputs/
 *.parquet
 *.feather
 *.tsv
-*.jsonl
+# *.jsonl
 *.db
 *.sqlite
 
@@ -126,4 +126,4 @@ outputs/
 *.pem
 *.crt
 *.secret
-.env.local
+# .env.local

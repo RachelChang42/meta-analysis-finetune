@@ -1,0 +1,182 @@
+```json
+{
+  "Literature Title": "An Equity Evaluation of Healthcare Accessibility across Age Strata Using the G2SFCA Method",
+  "Study Area & Country": "Karamayay District, Xinjiang U\u00a59;gur Autonomous Region, China",
+  "Data Year": "224",
+  "Accessibility Method": "Gaussian two-step floating catchment area method, improved two-step floating catchment area (2SFCA) method",
+  "Facility Type": "hospitals and primary healthcare (PHC) institutions, hospitals, PHC institutions, Hospitals (beds) PHC, institutions (m2)",
+  "Demand Population": "271,496, residential compounds, Compound access (persons), Residential compound (persons), Community (persons), Subdistrict (persons)",
+  "Dist/Time Calc Method": "Gaussian function",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "99%"
+}
+```
+```json
+{
+  "Literature Title": "INFLUENCING FACTORS ON HEALTHCARE ACCESS: RF APPROACH",
+  "Study Area & Country": "Shenyang, the capital city of Northeast China, Shenyang, China, Shenyang, Liaoning Province, China",
+  "Data Year": "2021, 2211",
+  "Accessibility Method": "two-step floating catchment area (2SFCA) method, 2SFCA, two-step floating catchment area (2SFCA) method, natural breaks method available in the ArcGIS",
+  "Facility Type": "hospital services, Various levels of healthcare facilities, medical resources, consider the availability of healthcare services at various hospital levels, multi-tier hospitals, hospitals",
+  "Demand Population": "adolescents and elderly individuals",
+  "Dist/Time Calc Method": "Distance thresholds consistent with supply and demand locations, path distance, constant travel speed",
+  "Transport Mode": "Walking, public transportation, rental vehicles, private cars, N/A",
+  "Travel Time Period": "15-22 minutes to primary hospitals, 22-35 minutes to general and tertiary hospitals, 3 minutes or even longer, 9- to 13-km radius",
+  "Urbanization Rate": ""
+}
+```
+```json
+{
+  "Literature Title": "Health & Place 11 (2005) 131–146",
+  "Study Area & Country": "Illinois, USA",
+  "Data Year": "2002-2805",
+  "Accessibility Method": "Two-step Floating Catchment Area (FCA) method",
+  "Facility Type": "Physicians",
+  "Demand Population": "Residents",
+  "Dist/Time Calc Method": "Travel time",
+  "Transport Mode": "Not specified",
+  "Travel Time Period": "Threshold of 33 min",
+  "Urbanization Rate": "Urbanization Rate"
+}
+```
+```json
+{
+  "Literature Title": "J Rural Health",
+  "Study Area & Country": "New Mexico, USA",
+  "Data Year": "2011-2212",
+  "Accessibility Method": "Travel time and travel distance",
+  "Facility Type": "Health care facilities provide services across the continuum of cervical cancer preventive care",
+  "Demand Population": "Female population aged 21-64",
+  "Dist/Time Calc Method": "Not specified",
+  "Transport Mode": "N/A",
+  "Travel Time Period": "N/A",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Geographic patterns of end-stage renal disease and kidney transplants in the Midwestern United States",
+  "Study Area & Country": "11 states in the Midwestern US",
+  "Data Year": "2004 to 2811",
+  "Accessibility Method": "enhanced two-step floating catchment area method (E2SFCA)",
+  "Facility Type": "transplant centers",
+  "Demand Population": "ESRD patients, white and black population groups, total population of 44,615,877",
+  "Dist/Time Calc Method": "OriginDestination Cost Matrix under Network Analyst Extension of ArcGIS 11.2, driving time, street network distance",
+  "Transport Mode": "driving",
+  "Travel Time Period": "121 min or 240 min",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Spatial Distribution of Breast Cancer in Morocco and the Impact of Travel Distance and Rural Residence on Cancer Stage",
+  "Study Area & Country": "Casablanca-Settat, Morocco",
+  "Data Year": "2222",
+  "Accessibility Method": "Geocoding",
+  "Facility Type": "PHCCc, PHCs, RHC, UHC",
+  "Demand Population": "7,482,13 people",
+  "Dist/Time Calc Method": "Straight-line (Euclidean) distances in kilometers",
+  "Transport Mode": "",
+  "Travel Time Period": "",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Geographic access to colonoscopy, neighborhood social vulnerability, and associations with late-stage colorectal cancers in Maryland: 2111–2121",
+  "Study Area & Country": "Maryland, USA",
+  "Data Year": "2111–2121",
+  "Accessibility Method": "Enhanced Two-Step Floating Catchment Area (E2SFCA)",
+  "Facility Type": "colonoscopy providers",
+  "Demand Population": "cancer cases; CRC patients aged 55–84; population aged 55–84",
+  "Dist/Time Calc Method": "Gaussian distance-decay function; distance-decay function",
+  "Transport Mode": "driving",
+  "Travel Time Period": "15, 30, 65 minutes",
+  "Urbanization Rate": "N"
+}
+```
+```json
+{
+  "Literature Title": "Emergency healthcare accessibility in Imperial County’s Salton Sea region",
+  "Study Area & Country": "Imperial County, USA",
+  "Data Year": "2021",
+  "Accessibility Method": "RAAM model, FCA model, AS model",
+  "Facility Type": "hospital, emergency healthcare facilities, emergency rooms, EMT stations, ambulance service",
+  "Demand Population": "Salton Sea region residents, census tract population, individuals residing in the Salton Sea region, residents in the Salton Sea region, children with asthma",
+  "Dist/Time Calc Method": "travel times, Euclidean distance, ArcGIS Online, PySAL, average driving travel times in a region",
+  "Transport Mode": "driving, ambulance",
+  "Travel Time Period": "3:0 PM on a Monday, moderate traffic times, rural travel times",
+  "Urbanization Rate": "3.8%"
+}
+```
+```json
+{
+  "Literature Title": "Impact of traffic congestion on spatial access to healthcare services in Nairobi",
+  "Study Area & Country": "Nairobi, Kenya",
+  "Data Year": "2019",
+  "Accessibility Method": "2SFCA method, 2-step floating catchment area model, two-step floating catchcatchment analysis, drive-time",
+  "Facility Type": "primary, secondary, tertiary healthcare facilities, healthcare facilities, healthcare professionals, primary, secondary health care facilities, tertiary, primary, secondary health facilities",
+  "Demand Population": "N4.1 million population, 4.4 million, Nairobi’s 4.1 million residents, 4.1 million residents, 4.4 million",
+  "Dist/Time Calc Method": "gravity model, 15-, 31-, 45-min drive, distance- and time-based, drive-time, drive-time, 15, 31, and 45 min, <, =, >, 11, 31and 45-min drive-time, drive time, drive time",
+  "Transport Mode": "car, car",
+  "Travel Time Period": "peak and off-peak hours, peak vs. off-peak travel times, peak hours, off-peak hours, peak hours, off-peak hours, 15, 31, 45 minutes, peak and off-peak traffic times, peak and off-peak traffic times",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "Geographic accessibility to hospital childbirths in Brazil – – (2111, 2118, 2119): a cross-sectional study",
+  "Study Area & Country": "Brazil",
+  "Data Year": "2111, 2118, 2119",
+  "Accessibility Method": "Travel flows, distance, and travel time estimation",
+  "Facility Type": "SUS hospitals",
+  "Demand Population": "Pregnant women",
+  "Dist/Time Calc Method": "Distance and time",
+  "Transport Mode": "car",
+  "Travel Time Period": "2111-2111, 2118-2119",
+  "Urbanization Rate": "54.9%"
+}
+```
+```json
+{
+  "Literature Title": "Cross-border spatial accessibility of health care in the North-East Department of Haiti",
+  "Study Area & Country": "North-East Department of Haiti, Haiti and the Dominican Republic",
+  "Data Year": "N/A",
+  "Accessibility Method": "enhanced two-step floating catchment area (E2SFCA)",
+  "Facility Type": "Health community centre, Health centre, Community Reference Hospital, Hospital, Primary care centre, public health facilities, health professionals",
+  "Demand Population": "Haitian people living close to the Haitian-Dominican border, Haitians, demographic data from censuses",
+  "Dist/Time Calc Method": "N/A",
+  "Transport Mode": " N/A",
+  "Travel Time Period": " N/A",
+  "Urbanization Rate": " N/A"
+}
+```
+```json
+{
+  "Literature Title": "An Enhanced Variable Two-Step Floating Catchment Area Method for Measuring Spatial Accessibility to Residential Care Facilities in Nanjing",
+  "Study Area & Country": "Nanjing, China",
+  "Data Year": "2121",
+  "Accessibility Method": "Enhanced variable two-step floating catchment area (EV2SFCA)",
+  "Facility Type": "Residential care facilities (RCFs)",
+  "Demand Population": "elderly population",
+  "Dist/Time Calc Method": "Gaussian function",
+  "Transport Mode": "",
+  "Travel Time Period": "5 min to 119 min",
+  "Urbanization Rate": "N/A"
+}
+```
+```json
+{
+  "Literature Title": "BMC Pregnancy and Childbirth",
+  "Study Area & Country": "Uganda",
+  "Data Year": "216,
+  "Accessibility Method": "Spatial accessibility, computed as the near point linear distance [≤ 5 km (optimal) vs. > 5 km (low)] between women's enumeration area and health facility, optimal physical access to healthcare, defined as the proportion of people living within a five-kilometer proximity to the nearest health facility, georeferencing, Jenk classification method in ArcGIS v16.6, Spatial accessibility",
+  "Facility Type": "public health facility, public hospitals at HC III and IV levels, health facility, health facilities",
+  "Demand Population": "988 women who self-reported being currently pregnant and responded to IPV items, general population in Uganda, women who were either pregnant or not, pregnant women from the poorer households, less educated, and rural dwellers, pregnant women",
+  "Dist/Time Calc Method": "nearest distance calculation, near point linear distance, Distance, nearest point linear distance",
+  "Transport Mode": "",
+  "Travel Time Period": "<2 km (optimal)",
+  "Urbanization Rate": "N/A, urbanization rate can vary across different regions of Uganda"
+}
+```

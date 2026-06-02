@@ -1,0 +1,40 @@
+nohup: ignoring input
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.02s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.84s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.77s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.73s/it]
+trainable params: 20,185,088 || all params: 7,635,801,600 || trainable%: 0.2643
+  0%|          | 0/18 [00:00<?, ?it/s]/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+  6%|▌         | 1/18 [00:34<09:48, 34.63s/it]                                                6%|▌         | 1/18 [00:34<09:48, 34.63s/it] 11%|█         | 2/18 [01:09<09:13, 34.58s/it]                                               11%|█         | 2/18 [01:09<09:13, 34.58s/it] 17%|█▋        | 3/18 [01:43<08:38, 34.59s/it]                                               17%|█▋        | 3/18 [01:43<08:38, 34.59s/it] 22%|██▏       | 4/18 [02:18<08:04, 34.61s/it]                                               22%|██▏       | 4/18 [02:18<08:04, 34.61s/it] 28%|██▊       | 5/18 [02:53<07:30, 34.62s/it]                                               28%|██▊       | 5/18 [02:53<07:30, 34.62s/it] 33%|███▎      | 6/18 [03:27<06:55, 34.62s/it]                                               33%|███▎      | 6/18 [03:27<06:55, 34.62s/it]/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /root/autodl-tmp/NLP_Project/models/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+ 39%|███▉      | 7/18 [04:02<06:21, 34.69s/it]                                               39%|███▉      | 7/18 [04:02<06:21, 34.69s/it] 44%|████▍     | 8/18 [04:37<05:46, 34.66s/it]                                               44%|████▍     | 8/18 [04:37<05:46, 34.66s/it] 50%|█████     | 9/18 [05:11<05:11, 34.65s/it]                                               50%|█████     | 9/18 [05:11<05:11, 34.65s/it] 56%|█████▌    | 10/18 [05:46<04:37, 34.65s/it]                                                56%|█████▌    | 10/18 [05:46<04:37, 34.65s/it] 61%|██████    | 11/18 [06:21<04:02, 34.64s/it]                                                61%|██████    | 11/18 [06:21<04:02, 34.64s/it] 67%|██████▋   | 12/18 [06:55<03:27, 34.64s/it]                                                67%|██████▋   | 12/18 [06:55<03:27, 34.64s/it]/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /root/autodl-tmp/NLP_Project/models/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False explicitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+ 72%|███████▏  | 13/18 [07:30<02:53, 34.67s/it]                                                72%|███████▏  | 13/18 [07:30<02:53, 34.67s/it] 78%|███████▊  | 14/18 [08:05<02:18, 34.66s/it]                                                78%|███████▊  | 14/18 [08:05<02:18, 34.66s/it] 83%|████████▎ | 15/18 [08:39<01:43, 34.65s/it]                                                83%|████████▎ | 15/18 [08:39<01:43, 34.65s/it] 89%|████████▉ | 16/18 [09:14<01:09, 34.65s/it]                                                89%|████████▉ | 16/18 [09:14<01:09, 34.65s/it] 94%|█████████▍| 17/18 [09:48<00:34, 34.64s/it]                                                94%|█████████▍| 17/18 [09:48<00:34, 34.64s/it]100%|██████████| 18/18 [10:23<00:00, 34.64s/it]                                               100%|██████████| 18/18 [10:23<00:00, 34.64s/it]/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /root/autodl-tmp/NLP_Project/models/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /root/autodl-tmp/NLP_Project/models/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+                                               100%|██████████| 18/18 [10:23<00:00, 34.64s/it]100%|██████████| 18/18 [10:23<00:00, 34.66s/it]
+/root/miniconda3/envs/agiclass/lib/python3.11/site-packages/peft/utils/save_and_load.py:195: UserWarning: Could not find a config file in /root/autodl-tmp/NLP_Project/models/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.16}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.32}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.48}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.64}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.8}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 0.96}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.12}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.28}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.44}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.6}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.76}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 1.92}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.08}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.24}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.4}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.56}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.72}
+{'loss': 0.0, 'grad_norm': nan, 'learning_rate': 0.0002, 'epoch': 2.88}
+{'train_runtime': 623.9271, 'train_samples_per_second': 0.24, 'train_steps_per_second': 0.029, 'train_loss': 0.0, 'epoch': 2.88}
+Training finished. LoRA adapter saved to: /root/autodl-tmp/NLP_Project/outputs/qwen25_7b_lora_fold1_v3

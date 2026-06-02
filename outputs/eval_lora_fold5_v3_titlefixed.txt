@@ -1,0 +1,23 @@
+模型解析到 6 篇文献, 7 条记录
+标注解析到 13 篇文献, 15 条记录
+文献输出比例: 0.4615
+格式合规率: 0.0000
+BLEU: 0.4197
+宏平均F1: 0.1727
+幻觉率: 0.0000
+题目精确匹配: 0.4667
+年份F1: 0.0222
+地区F1: 0.0524
+宽松匹配准确率: 0.1267
+
+逐个字段匹配准确率:
+  Literature Title: 0.4667
+  Study Area & Country: 0.0476
+  Data Year: 0.0000
+  Accessibility Method: 0.0476
+  Facility Type: 0.0476
+  Demand Population: 0.2222
+  Dist/Time Calc Method: 0.0000
+  Transport Mode: 0.1000
+  Travel Time Period: 0.0476
+  Urbanization Rate: 0.1000
