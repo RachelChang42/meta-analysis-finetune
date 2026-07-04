@@ -1,0 +1,430 @@
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+================================================================================
+Loading tokenizer
+================================================================================
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+================================================================================
+Loading base model in 4bit, no LoRA
+================================================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.13it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.14it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.14it/s]
+================================================================================
+Start baseline chunk inference
+================================================================================
+input: data/clean/val_fold_3.jsonl
+output: output/ablation/aggregation/fold3_llm.jsonl
+samples: 13
+[1/13] line=1, chunks=24
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  chunk 1/24 done
+  chunk 2/24 done
+  chunk 3/24 done
+  chunk 4/24 done
+  chunk 5/24 done
+  chunk 6/24 done
+  chunk 7/24 done
+  chunk 8/24 done
+  chunk 9/24 done
+  chunk 10/24 done
+  chunk 11/24 done
+  chunk 12/24 done
+  chunk 13/24 done
+  chunk 14/24 done
+  chunk 15/24 done
+  chunk 16/24 done
+  chunk 17/24 done
+  chunk 18/24 done
+  chunk 19/24 done
+  chunk 20/24 done
+  chunk 21/24 done
+  chunk 22/24 done
+  chunk 23/24 done
+  chunk 24/24 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[1/13] done, pred_items=1
+[2/13] line=2, chunks=35
+  chunk 1/35 done
+  chunk 2/35 done
+  chunk 3/35 done
+  chunk 4/35 done
+  chunk 5/35 done
+  chunk 6/35 done
+  chunk 7/35 done
+  chunk 8/35 done
+  chunk 9/35 done
+  chunk 10/35 done
+  chunk 11/35 done
+  chunk 12/35 done
+  chunk 13/35 done
+  chunk 14/35 done
+  chunk 15/35 done
+  chunk 16/35 done
+  chunk 17/35 done
+  chunk 18/35 done
+  chunk 19/35 done
+  chunk 20/35 done
+  chunk 21/35 done
+  chunk 22/35 done
+  chunk 23/35 done
+  chunk 24/35 done
+  chunk 25/35 done
+  chunk 26/35 done
+  chunk 27/35 done
+  chunk 28/35 done
+  chunk 29/35 done
+  chunk 30/35 done
+  chunk 31/35 done
+  chunk 32/35 done
+  chunk 33/35 done
+  chunk 34/35 done
+  chunk 35/35 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[2/13] done, pred_items=1
+[3/13] line=3, chunks=27
+  chunk 1/27 done
+  chunk 2/27 done
+  chunk 3/27 done
+  chunk 4/27 done
+  chunk 5/27 done
+  chunk 6/27 done
+  chunk 7/27 done
+  chunk 8/27 done
+  chunk 9/27 done
+  chunk 10/27 done
+  chunk 11/27 done
+  chunk 12/27 done
+  chunk 13/27 done
+  chunk 14/27 done
+  chunk 15/27 done
+  chunk 16/27 done
+  chunk 17/27 done
+  chunk 18/27 done
+  chunk 19/27 done
+  chunk 20/27 done
+  chunk 21/27 done
+  chunk 22/27 done
+  chunk 23/27 done
+  chunk 24/27 done
+  chunk 25/27 done
+  chunk 26/27 done
+  chunk 27/27 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[3/13] done, pred_items=1
+[4/13] line=4, chunks=13
+  chunk 1/13 done
+  chunk 2/13 done
+  chunk 3/13 done
+  chunk 4/13 done
+  chunk 5/13 done
+  chunk 6/13 done
+  chunk 7/13 done
+  chunk 8/13 done
+  chunk 9/13 done
+  chunk 10/13 done
+  chunk 11/13 done
+  chunk 12/13 done
+  chunk 13/13 done
+  aggregation mode: llm
+[4/13] done, pred_items=3
+[5/13] line=5, chunks=28
+  chunk 1/28 done
+  chunk 2/28 done
+  chunk 3/28 done
+  chunk 4/28 done
+  chunk 5/28 done
+  chunk 6/28 done
+  chunk 7/28 done
+  chunk 8/28 done
+  chunk 9/28 done
+  chunk 10/28 done
+  chunk 11/28 done
+  chunk 12/28 done
+  chunk 13/28 done
+  chunk 14/28 done
+  chunk 15/28 done
+  chunk 16/28 done
+  chunk 17/28 done
+  chunk 18/28 done
+  chunk 19/28 done
+  chunk 20/28 done
+  chunk 21/28 done
+  chunk 22/28 done
+  chunk 23/28 done
+  chunk 24/28 done
+  chunk 25/28 done
+  chunk 26/28 done
+  chunk 27/28 done
+  chunk 28/28 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[5/13] done, pred_items=1
+[6/13] line=6, chunks=24
+  chunk 1/24 done
+  chunk 2/24 done
+  chunk 3/24 done
+  chunk 4/24 done
+  chunk 5/24 done
+  chunk 6/24 done
+  chunk 7/24 done
+  chunk 8/24 done
+  chunk 9/24 done
+  chunk 10/24 done
+  chunk 11/24 done
+  chunk 12/24 done
+  chunk 13/24 done
+  chunk 14/24 done
+  chunk 15/24 done
+  chunk 16/24 done
+  chunk 17/24 done
+  chunk 18/24 done
+  chunk 19/24 done
+  chunk 20/24 done
+  chunk 21/24 done
+  chunk 22/24 done
+  chunk 23/24 done
+  chunk 24/24 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[6/13] done, pred_items=1
+[7/13] line=7, chunks=30
+  chunk 1/30 done
+  chunk 2/30 done
+  chunk 3/30 done
+  chunk 4/30 done
+  chunk 5/30 done
+  chunk 6/30 done
+  chunk 7/30 done
+  chunk 8/30 done
+  chunk 9/30 done
+  chunk 10/30 done
+  chunk 11/30 done
+  chunk 12/30 done
+  chunk 13/30 done
+  chunk 14/30 done
+  chunk 15/30 done
+  chunk 16/30 done
+  chunk 17/30 done
+  chunk 18/30 done
+  chunk 19/30 done
+  chunk 20/30 done
+  chunk 21/30 done
+  chunk 22/30 done
+  chunk 23/30 done
+  chunk 24/30 done
+  chunk 25/30 done
+  chunk 26/30 done
+  chunk 27/30 done
+  chunk 28/30 done
+  chunk 29/30 done
+  chunk 30/30 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[7/13] done, pred_items=1
+[8/13] line=8, chunks=27
+  chunk 1/27 done
+  chunk 2/27 done
+  chunk 3/27 done
+  chunk 4/27 done
+  chunk 5/27 done
+  chunk 6/27 done
+  chunk 7/27 done
+  chunk 8/27 done
+  chunk 9/27 done
+  chunk 10/27 done
+  chunk 11/27 done
+  chunk 12/27 done
+  chunk 13/27 done
+  chunk 14/27 done
+  chunk 15/27 done
+  chunk 16/27 done
+  chunk 17/27 done
+  chunk 18/27 done
+  chunk 19/27 done
+  chunk 20/27 done
+  chunk 21/27 done
+  chunk 22/27 done
+  chunk 23/27 done
+  chunk 24/27 done
+  chunk 25/27 done
+  chunk 26/27 done
+  chunk 27/27 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[8/13] done, pred_items=1
+[9/13] line=9, chunks=27
+  chunk 1/27 done
+  chunk 2/27 done
+  chunk 3/27 done
+  chunk 4/27 done
+  chunk 5/27 done
+  chunk 6/27 done
+  chunk 7/27 done
+  chunk 8/27 done
+  chunk 9/27 done
+  chunk 10/27 done
+  chunk 11/27 done
+  chunk 12/27 done
+  chunk 13/27 done
+  chunk 14/27 done
+  chunk 15/27 done
+  chunk 16/27 done
+  chunk 17/27 done
+  chunk 18/27 done
+  chunk 19/27 done
+  chunk 20/27 done
+  chunk 21/27 done
+  chunk 22/27 done
+  chunk 23/27 done
+  chunk 24/27 done
+  chunk 25/27 done
+  chunk 26/27 done
+  chunk 27/27 done
+  aggregation mode: llm
+[9/13] done, pred_items=5
+[10/13] line=10, chunks=37
+  chunk 1/37 done
+  chunk 2/37 done
+  chunk 3/37 done
+  chunk 4/37 done
+  chunk 5/37 done
+  chunk 6/37 done
+  chunk 7/37 done
+  chunk 8/37 done
+  chunk 9/37 done
+  chunk 10/37 done
+  chunk 11/37 done
+  chunk 12/37 done
+  chunk 13/37 done
+  chunk 14/37 done
+  chunk 15/37 done
+  chunk 16/37 done
+  chunk 17/37 done
+  chunk 18/37 done
+  chunk 19/37 done
+  chunk 20/37 done
+  chunk 21/37 done
+  chunk 22/37 done
+  chunk 23/37 done
+  chunk 24/37 done
+  chunk 25/37 done
+  chunk 26/37 done
+  chunk 27/37 done
+  chunk 28/37 done
+  chunk 29/37 done
+  chunk 30/37 done
+  chunk 31/37 done
+  chunk 32/37 done
+  chunk 33/37 done
+  chunk 34/37 done
+  chunk 35/37 done
+  chunk 36/37 done
+  chunk 37/37 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[10/13] done, pred_items=1
+[11/13] line=11, chunks=42
+  chunk 1/42 done
+  chunk 2/42 done
+  chunk 3/42 done
+  chunk 4/42 done
+  chunk 5/42 done
+  chunk 6/42 done
+  chunk 7/42 done
+  chunk 8/42 done
+  chunk 9/42 done
+  chunk 10/42 done
+  chunk 11/42 done
+  chunk 12/42 done
+  chunk 13/42 done
+  chunk 14/42 done
+  chunk 15/42 done
+  chunk 16/42 done
+  chunk 17/42 done
+  chunk 18/42 done
+  chunk 19/42 done
+  chunk 20/42 done
+  chunk 21/42 done
+  chunk 22/42 done
+  chunk 23/42 done
+  chunk 24/42 done
+  chunk 25/42 done
+  chunk 26/42 done
+  chunk 27/42 done
+  chunk 28/42 done
+  chunk 29/42 done
+  chunk 30/42 done
+  chunk 31/42 done
+  chunk 32/42 done
+  chunk 33/42 done
+  chunk 34/42 done
+  chunk 35/42 done
+  chunk 36/42 done
+  chunk 37/42 done
+  chunk 38/42 done
+  chunk 39/42 done
+  chunk 40/42 done
+  chunk 41/42 done
+  chunk 42/42 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[11/13] done, pred_items=1
+[12/13] line=12, chunks=17
+  chunk 1/17 done
+  chunk 2/17 done
+  chunk 3/17 done
+  chunk 4/17 done
+  chunk 5/17 done
+  chunk 6/17 done
+  chunk 7/17 done
+  chunk 8/17 done
+  chunk 9/17 done
+  chunk 10/17 done
+  chunk 11/17 done
+  chunk 12/17 done
+  chunk 13/17 done
+  chunk 14/17 done
+  chunk 15/17 done
+  chunk 16/17 done
+  chunk 17/17 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[12/13] done, pred_items=1
+[13/13] line=13, chunks=23
+  chunk 1/23 done
+  chunk 2/23 done
+  chunk 3/23 done
+  chunk 4/23 done
+  chunk 5/23 done
+  chunk 6/23 done
+  chunk 7/23 done
+  chunk 8/23 done
+  chunk 9/23 done
+  chunk 10/23 done
+  chunk 11/23 done
+  chunk 12/23 done
+  chunk 13/23 done
+  chunk 14/23 done
+  chunk 15/23 done
+  chunk 16/23 done
+  chunk 17/23 done
+  chunk 18/23 done
+  chunk 19/23 done
+  chunk 20/23 done
+  chunk 21/23 done
+  chunk 22/23 done
+  chunk 23/23 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[13/13] done, pred_items=1
+================================================================================
+DONE
+Saved to: output/ablation/aggregation/fold3_llm.jsonl
+================================================================================

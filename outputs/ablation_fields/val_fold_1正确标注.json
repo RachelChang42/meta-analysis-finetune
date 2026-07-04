@@ -1,0 +1,220 @@
+[
+  [
+    {
+      "Literature Title": "An Improved Healthcare Accessibility Measure Considering the Temporal Dimension and Population Demand",
+      "Study Area & Country": "Main urban area of Wuhan (including Jiang’an, Jianghan, Qiaokou, Hanyang, Wuchang, Hongshan, Qingshan districts), Hubei, China",
+      "Data Year": "2017 (Pop)",
+      "Accessibility Method": "Improved 3SFCA (Dynamic)",
+      "Facility Type": "Second- and third-class hospitals",
+      "Demand Population": "Total population, adjusted for elderly demand",
+      "Dist/Time Calc Method": "AutoNavi API (Real-time)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "07:40, 10:40, 12:40, 15:20, 17:20",
+      "Urbanization Rate": "Core functional urban area"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Assessing Spatial Accessibility to Medical Resources at the Community Level in Shenzhen, China",
+      "Study Area & Country": "Shenzhen, China",
+      "Data Year": 2016,
+      "Accessibility Method": "travel time to nearest hospital",
+      "Facility Type": "General hospitals (Public/Private)",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network analysis  (ArcGIS)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "Road type max speeds",
+      "Urbanization Rate": "Most crowded first-tier city"
+    },
+    {
+      "Literature Title": "Assessing Spatial Accessibility to Medical Resources at the Community Level in Shenzhen, China",
+      "Study Area & Country": "Shenzhen, China",
+      "Data Year": 2016,
+      "Accessibility Method": "E2SFCA",
+      "Facility Type": "General hospitals (Public/Private)",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network analysis (ArcGIS 10.2)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "Road type max speeds",
+      "Urbanization Rate": "Most crowded first-tier city"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Modelling geographic accessibility to Primary Health Care Facilities: combining open data and geospatial analysis",
+      "Study Area & Country": "Akwa Ibom State, Nigeria",
+      "Data Year": "2015 (Pop)",
+      "Accessibility Method": "Travel time to nearest facility",
+      "Facility Type": "PHCF",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "ArcGIS (OSM road network)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Major urban agglomerations noted"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta Region, Ghana: a repeated cross-sectional ecological study using health facility data",
+      "Study Area & Country": "Volta Region, Ghana",
+      "Data Year": 2016,
+      "Accessibility Method": "Travel time thresholds",
+      "Facility Type": "general population (outpatient attendance and malaria care), women of childbearing age (WoCBA) (antenatal, skilled birthing care and caesarean care for obstetric emergencies), and children under 5 years (pentavalent vaccine)",
+      "Demand Population": "Total（outpatient attendance and malaria care), Children < 5, Mothers",
+      "Dist/Time Calc Method": "ArcGIS Online proximity",
+      "Transport Mode": "walking and mechanised travel time",
+      "Travel Time Period": "moderate (cost distance travel time model)",
+      "Urbanization Rate": ""
+    },
+    {
+      "Literature Title": "Spatio-temporal patterns of health service delivery and access to maternal, child, and outpatient healthcare in Volta Region, Ghana: a repeated cross-sectional ecological study using health facility data",
+      "Study Area & Country": "Volta Region, Ghana",
+      "Data Year": 2022,
+      "Accessibility Method": "Travel time thresholds",
+      "Facility Type": "general population (outpatient attendance and malaria care), women of childbearing age (WoCBA) (antenatal, skilled birthing care and caesarean care for obstetric emergencies), and children under 5 years (pentavalent vaccine)",
+      "Demand Population": "Total（outpatient attendance and malaria care), Children < 5, Mothers",
+      "Dist/Time Calc Method": "ArcGIS Online proximity",
+      "Transport Mode": "walking and mechanised travel time",
+      "Travel Time Period": "moderate (cost distance travel time model)",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "The Contributions of Population Distribution, Healthcare Resourcing, and Transportation Infrastructure to Spatial Accessibility of Health Care",
+      "Study Area & Country": "Chishui, Guizhou, China",
+      "Data Year": 2014,
+      "Accessibility Method": "E2SFCA",
+      "Facility Type": "Hospitals, centers, clinics",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network travel time",
+      "Transport Mode": "Walking + Driving",
+      "Travel Time Period": "Speed limits",
+      "Urbanization Rate": "Rural"
+    },
+    {
+      "Literature Title": "The Contributions of Population Distribution, Healthcare Resourcing, and Transportation Infrastructure to Spatial Accessibility of Health Care",
+      "Study Area & Country": "Chishui, Guizhou, China",
+      "Data Year": 2017,
+      "Accessibility Method": "E2SFCA",
+      "Facility Type": "Hospitals, centers, clinics",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network travel time",
+      "Transport Mode": "Walking + Driving",
+      "Travel Time Period": "Speed limits",
+      "Urbanization Rate": "Rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Evaluating spatial accessibility to healthcare services under travel time uncertainty: A reliability-based floating catchment area approach",
+      "Study Area & Country": "Shenzhen, China",
+      "Data Year": "2012 (Pop), 2014 (Hospitals)",
+      "Accessibility Method": "Reliability-based 2SFCA",
+      "Facility Type": "Tertiary and Secondary hospitals",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Taxi trajectories (Big data)",
+      "Transport Mode": "Driving (Taxi)",
+      "Travel Time Period": "five working days from 22 to 26 September 2014",
+      "Urbanization Rate": "Core urban, suburban, and rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Spatial Accessibility to Primary Healthcare Services by Multimodal Means of Travel: Synthesis and Case Study of Calgary, Canada",
+      "Study Area & Country": "Calgary, Canada",
+      "Data Year": "2016 (Pop), 2017 (Clinics)",
+      "Accessibility Method": "Spatial Access Ratio",
+      "Facility Type": "primary healthcare services",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network Analyst (ArcGIS Pro)",
+      "Transport Mode": "Driving, Public transit, Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Large urban center"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Disparities in Geographic Access to Pediatric Subspecialty Care",
+      "Study Area & Country": "Contiguous United States",
+      "Data Year": "2003 (Pediatric subspecialists)",
+      "Accessibility Method": "Distance to nearest facility",
+      "Facility Type": "Pediatric subspecialists (16 subspecialties: adolescent medicine, critical care medicine, developmental behavioral pediatrics, neonatal‑perinatal medicine, neurodevelopmental disabilities, pediatric cardiology, pediatric emergency medicine, pediatric endocrinology, pediatric gastroenterology, pediatric hematology/oncology, pediatric infectious diseases, pediatric nephrology, pediatric pulmonology, pediatric rheumatology, pediatric sports medicine)",
+      "Demand Population": "Children (<18)",
+      "Dist/Time Calc Method": "Straight‑line (Euclidean) distance",
+      "Transport Mode": "",
+      "Travel Time Period": "",
+      "Urbanization Rate": "5-level categorization of metropolitan status"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Interpreting the results of a modified gravity model: examining access to primary health care physicians in five Canadian provinces and territories",
+      "Study Area & Country": "Newfoundland and Labrador, Nunavut, Ontario, British Columbia, Nova Scotia, Canada",
+      "Data Year": "2006 (Pop), 2008-2009 (PHC physicians)",
+      "Accessibility Method": "Modified gravity model",
+      "Facility Type": "Primary health care physicians (family physicians and general practitioners)",
+      "Demand Population": "Total population ",
+      "Dist/Time Calc Method": "ODCM (Network analyst ArcGIS 9.3)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "Spatial equity of physiotherapy accessibility in Aotearoa New Zealand in relation to M ̄aori and Pacific ethnicity, socioeconomic deprivation, and rurality",
+      "Study Area & Country": "New Zealand",
+      "Data Year": "2018 (census), 2022 (providers)",
+      "Accessibility Method": "3SFCA",
+      "Facility Type": "Physiotherapy care\n",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Euclidean (decay) & Network (OD)",
+      "Transport Mode": "NZ work travel standards",
+      "Travel Time Period": "",
+      "Urbanization Rate": "classifies SA1s into 5 categories: from ‘Urban 1’ (U1) to ‘Urban 2’ (U2) by population size, and from ‘Rural 1’ (R1) to ‘Rural 3’ (R3) by drive time to the nearest major, large, medium, and small urban areas; Least rural (U1 & U2), Medium (R1), Most rural (R2 & R3)"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Patients with geographic barriers to health care access are prescribed a higher proportion of drugs with pharmacogenetic testing guidelines",
+      "Study Area & Country": "Florida, USA",
+      "Data Year": "2013-2017 (Pop), 2020 (PCPs)",
+      "Accessibility Method": "2SFCA",
+      "Facility Type": "Primary care providers",
+      "Demand Population": "Patients (Full cohort)",
+      "Dist/Time Calc Method": "Network Analyst (ArcGIS Pro)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "Standard speed limits",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "Evaluation of accessibility and equity to hospitals by public transport: evidence from six largest cities of Ohio",
+      "Study Area & Country": "Columbus, Cleveland, Cincinnati, Toledo, Akron, and Dayton, Ohio, USA\n",
+      "Data Year": "2019-2020 (beds), 2022 (transit)",
+      "Accessibility Method": "2SFCA",
+      "Facility Type": "General medical and surgical hospitals",
+      "Demand Population": "Total population & 20% most vulnerable",
+      "Dist/Time Calc Method": "GTFS Public Transit Model (ArcGIS)",
+      "Transport Mode": "Public transport",
+      "Travel Time Period": "10 AM, Monday (Off-peak)",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "Hemodialysis services: are public policies turned to guaranteeing the access?",
+      "Study Area & Country": "Mato Grosso do Sul State, Brazil",
+      "Data Year": 2012,
+      "Accessibility Method": "Distance to nearest facility (travel distance)",
+      "Facility Type": "Hemodialysis clinics (dialysis services)",
+      "Demand Population": "Patients on hemodialysis (chronic renal failure)",
+      "Dist/Time Calc Method": "Google Maps API",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": ""
+    }
+  ]
+]

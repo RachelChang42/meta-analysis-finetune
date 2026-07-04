@@ -1,0 +1,22 @@
+下面是同一篇医疗可达性研究文献的一个片段。
+
+训练目标：
+请根据当前文献片段学习输出该文献最终的结构化抽取结果。
+注意：当前片段可能只包含部分信息，但输出格式必须与完整文献级抽取结果保持一致。
+如果无法从片段中确定某字段，请填 "N/A"。
+只输出 JSON 数组，不要解释。
+
+字段必须严格为：
+- Literature Title
+- Study Area & Country
+- Data Year
+- Accessibility Method
+- Facility Type
+- Demand Population
+- Dist/Time Calc Method
+- Transport Mode
+- Travel Time Period
+- Urbanization Rate
+
+当前文献片段：
+{chunk_text}

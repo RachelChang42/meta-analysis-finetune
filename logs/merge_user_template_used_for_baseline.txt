@@ -1,0 +1,23 @@
+请融合以下 chunk 抽取结果，输出该文献最终的唯一 JSON 数组。
+
+字段必须严格为：
+- Literature Title
+- Study Area & Country
+- Data Year
+- Accessibility Method
+- Facility Type
+- Demand Population
+- Dist/Time Calc Method
+- Transport Mode
+- Travel Time Period
+- Urbanization Rate
+
+要求：
+1. 去重。
+2. 冲突时选择最具体、最可靠的信息。
+3. 缺失字段填 "N/A"。
+4. 如果同一文献确实包含多个方法、多个设施类型或多个结果，可以输出多个 JSON 对象。
+5. 只输出 JSON 数组，不要解释。
+
+chunk 抽取结果：
+{chunk_outputs}

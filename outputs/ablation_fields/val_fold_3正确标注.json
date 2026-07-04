@@ -1,0 +1,280 @@
+[
+  [
+    {
+      "Literature Title": "Exploring Equity in Healthcare Services: Spatial Accessibility Changes during Subway Expansion",
+      "Study Area & Country": "Shenyang central urban area (based on third ring road), China",
+      "Data Year": "2018 (Pop)",
+      "Accessibility Method": "2SFCA",
+      "Facility Type": "Public general hospitals (181)",
+      "Demand Population": "Total population weighted by vulnerability index (including elderly, immigrants, mortality, tax value)",
+      "Dist/Time Calc Method": "OD cost matrix using public transit network (subway and bus) and walking; data from AutoNavi Open Platform and Shenyang Metro website",
+      "Transport Mode": "Public transit (subway and bus) with walking access",
+      "Travel Time Period": "",
+      "Urbanization Rate": "urban"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Measuring geographic access to health care: raster and network-based methods",
+      "Study Area & Country": "Michigan, USA",
+      "Data Year": 2010,
+      "Accessibility Method": "Travel time to nearest facility",
+      "Facility Type": "Acute care hospitals",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Network-based vs. Raster-based",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "speed of different types of roads set according to the code for the design of urban road engineering and relevant research",
+      "Urbanization Rate": "Urban/rural mix"
+    }
+  ],
+  [
+    {
+      "Literature Title": "A relative spatial access assessment approach for analyzing potential spatial access to colorectal cancer services in Texas",
+      "Study Area & Country": "Texas, USA",
+      "Data Year": 2000,
+      "Accessibility Method": "E2SFCA with SPAR",
+      "Facility Type": "primary care physicians (PCPs), CRC screening facilities, Oncologists",
+      "Demand Population": "Total population (non-Hispanic white, non-Hispanic black, Hispanic, Asian, Native American)",
+      "Dist/Time Calc Method": "Network analysis (ArcGIS 9.3 Network Analyst)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "Speed limits",
+      "Urbanization Rate": "metropolitan, micropolitan, small rural, isolated rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Geographic Access to CT for Lung Cancer Screening: A Census Tract-Level Analysis of Cigarette Smoking in the United States and Driving Distance to a CT Facility",
+      "Study Area & Country": "United States (National)",
+      "Data Year": "2010‑2015 (Adult population from ACS 2011‑2015; smoking prevalence from BRFSS 2010), 2016 (ACR‑accredited CT facilities)",
+      "Accessibility Method": "Distance to nearest facility",
+      "Facility Type": "ACR‑accredited CT facilities",
+      "Demand Population": "Cigarette smokers and total adult population ≥18 years",
+      "Dist/Time Calc Method": "Geodesic distance via Google Maps Geocoding API",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "Driving distance",
+      "Urbanization Rate": "Urban/rural mix"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Spatial Accessibility Evaluation and Location Optimization of Primary Healthcare in China: A Case Study of Shenzhen",
+      "Study Area & Country": "Shenzhen, China",
+      "Data Year": "2020 (Pop), 2020(CHC)",
+      "Accessibility Method": "Ga2SFCA",
+      "Facility Type": "Community healthcare centers (CHC)",
+      "Demand Population": "Total residents",
+      "Dist/Time Calc Method": "Road network analysis (OSM)",
+      "Transport Mode": "driving or taking a car",
+      "Travel Time Period": "speed of different types of roads set according to the code for the design of urban road engineering and relevant research",
+      "Urbanization Rate": 0.9954
+    }
+  ],
+  [
+    {
+      "Literature Title": "Challenging terrains: socio-spatial analysis of Primary Health Care Access Disparities in West Virginia",
+      "Study Area & Country": "West Virginia, USA",
+      "Data Year": "2012-2015 (Pop), 2017 (Physicians)",
+      "Accessibility Method": "Modified E2SFCA",
+      "Facility Type": "Primary care sites",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Google Maps API",
+      "Transport Mode": "Private vehicles",
+      "Travel Time Period": "Weekday, moderate traffic",
+      "Urbanization Rate": "Rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Understanding inequalities in spatial accessibility to multi-tier healthcare for older adults in rapidly aging Bangladesh",
+      "Study Area & Country": "Bangladesh",
+      "Data Year": "2011 (Pop), 2020 (Beds)\n",
+      "Accessibility Method": "E2SFCA\n",
+      "Facility Type": "Public healthcare (Primary, Secondary, Tertiary)",
+      "Demand Population": "Older adults (>=60)",
+      "Dist/Time Calc Method": "Network Analyst (ArcGIS Pro)",
+      "Transport Mode": "Rickshaw (Primary), CNG auto-rickshaw (Sec/Tert)",
+      "Travel Time Period": "",
+      "Urbanization Rate": ""
+    },
+    {
+      "Literature Title": "Understanding inequalities in spatial accessibility to multi-tier healthcare for older adults in rapidly aging Bangladesh",
+      "Study Area & Country": "Bangladesh",
+      "Data Year": "2011 (Pop), 2020 (Beds)\n",
+      "Accessibility Method": "travel time to the nearest facility",
+      "Facility Type": "Public healthcare (Primary, Secondary, Tertiary)",
+      "Demand Population": "Older adults (>=60)",
+      "Dist/Time Calc Method": "Network Analyst (ArcGIS Pro)",
+      "Transport Mode": "Rickshaw (Primary), CNG auto-rickshaw (Sec/Tert)",
+      "Travel Time Period": "",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "Iowa spatial accessibility to screening mammography is improving, but utilization among privately insured women remains stable, 2016‑2022",
+      "Study Area & Country": "Iowa, USA",
+      "Data Year": "2016 to 2022",
+      "Accessibility Method": "Optimization model",
+      "Facility Type": "Mammography facilities",
+      "Demand Population": "Women aged 40–84",
+      "Dist/Time Calc Method": "Network Analysis Origin‑destination cost matrix(ArcGIS Pro 10.8.2)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "standard road network speeds",
+      "Urbanization Rate": "Urban Core, Suburban, Large Rural Town, Small Town, and Rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Refining 2SVCA method for measuring telehealth accessibility of primary care physicians in Baton Rouge, Louisiana",
+      "Study Area & Country": "Baton Rouge MSA, Louisiana, USA",
+      "Data Year": "2020 (Pop), 2022 (PCPs)",
+      "Accessibility Method": "2SFCA",
+      "Facility Type": "Primary care physicians",
+      "Demand Population": "Total population, Black, Poverty",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": "urban, low density, rural"
+    },
+    {
+      "Literature Title": "Refining 2SVCA method for measuring telehealth accessibility of primary care physicians in Baton Rouge, Louisiana",
+      "Study Area & Country": "Baton Rouge MSA, Louisiana, USA",
+      "Data Year": "2020 (Pop), 2022 (PCPs)",
+      "Accessibility Method": "2SVCA",
+      "Facility Type": "Primary care physicians (Telehealth)",
+      "Demand Population": "Total population, Black, Poverty",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "",
+      "Travel Time Period": "broadband speed data for business",
+      "Urbanization Rate": "urban, low density, rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Integrating Spatial and Non-Spatial Dimensions to Evaluate Access to Rural Primary Healthcare Service: A Case Study of Songzi, China",
+      "Study Area & Country": "Songzi, Hubei, China",
+      "Data Year": 2022,
+      "Accessibility Method": "G-2SFCA",
+      "Facility Type": "Grade I hospitals (clinics/community healthcare centers), Grade II and III hospitals (general hospitals)",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Road network distance (ArcGIS)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": "rural"
+    },
+    {
+      "Literature Title": "Integrating Spatial and Non-Spatial Dimensions to Evaluate Access to Rural Primary Healthcare Service: A Case Study of Songzi, China",
+      "Study Area & Country": "Songzi, Hubei, China",
+      "Data Year": 2022,
+      "Accessibility Method": "comprehensive access score",
+      "Facility Type": "Grade I hospitals (clinics/community healthcare centers), Grade II and III hospitals (general hospitals)",
+      "Demand Population": "Total population",
+      "Dist/Time Calc Method": "Road network distance (ArcGIS)",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": "rural"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Nearest road distance (km)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    },
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Nearest distance supplier loading (people)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    },
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Accessibility of ownership averaged by administrative districts (1000*capacity/people)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    },
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Accessibility of nearest simple distance-decay accounting for population of villages and supplier capacity (1000*capacity/people)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    },
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Accessibility of nearest simple distance-decay accounting for population of villages and supplier capacity (1000*capacity/people)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    },
+    {
+      "Literature Title": "Evaluating Disparities in Elderly Community Care Resources Using a Geographic Accessibility and Inequality Index",
+      "Study Area & Country": "Taiwan Main Island",
+      "Data Year": 2017,
+      "Accessibility Method": "Accessibility of nearest moderate distance-decay accounting for population of villages and supplier capacity (1000*capacity/people)",
+      "Facility Type": "Community care centers",
+      "Demand Population": "Elderly (65+)",
+      "Dist/Time Calc Method": "ArcGIS Network Analyst",
+      "Transport Mode": "Walking",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    }
+  ],
+  [
+    {
+      "Literature Title": "Determining spatial access to opioid use disorder treatment and emergency medical services in New Hampshire",
+      "Study Area & Country": "New Hampshire, USA",
+      "Data Year": "2015–2016",
+      "Accessibility Method": "E2SFCA combined with Huff model",
+      "Facility Type": "Opioid use disorder treatment facilities, buprenorphine practitioners, emergency medical services",
+      "Demand Population": "Opioid use disorder patients",
+      "Dist/Time Calc Method": "Network analysis",
+      "Transport Mode": "Driving",
+      "Travel Time Period": "",
+      "Urbanization Rate": ""
+    }
+  ],
+  [
+    {
+      "Literature Title": "Comparing geographical distribution of community‑based physiotherapists and family physicians across Saskatchewan",
+      "Study Area & Country": "Saskatchewan, Canada",
+      "Data Year": "2011 (Pop)",
+      "Accessibility Method": "3SFCA",
+      "Facility Type": "community-based physiotherapists (PTs) and family physicians (FPs)",
+      "Demand Population": "Total population & Need groups (65+, Low Income,  population aged 15+ without high‑school)",
+      "Dist/Time Calc Method": "",
+      "Transport Mode": "",
+      "Travel Time Period": "",
+      "Urbanization Rate": "Urban/rural mix"
+    }
+  ]
+]

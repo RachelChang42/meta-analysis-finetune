@@ -1,0 +1,38 @@
+下面是同一篇医疗可达性研究文献的一个片段。
+
+请从当前片段中尽可能抽取以下10个字段的信息。
+只要当前片段中出现了任意字段的信息，就输出一个 JSON 对象。
+当前片段没有出现的字段填写 "N/A"。
+只有当当前片段完全不包含任何有用信息时，才输出 []。
+只输出 JSON 数组，不要解释，不要 Markdown，不要代码块。
+
+字段必须严格为：
+- Literature Title
+- Study Area & Country
+- Data Year
+- Accessibility Method
+- Facility Type
+- Demand Population
+- Dist/Time Calc Method
+- Transport Mode
+- Travel Time Period
+- Urbanization Rate
+
+严格按照下面格式输出：
+[
+  {
+    "Literature Title": "",
+    "Study Area & Country": "",
+    "Data Year": "",
+    "Accessibility Method": "",
+    "Facility Type": "",
+    "Demand Population": "",
+    "Dist/Time Calc Method": "",
+    "Transport Mode": "",
+    "Travel Time Period": "",
+    "Urbanization Rate": ""
+  }
+]
+
+当前文献片段：
+{chunk_text}

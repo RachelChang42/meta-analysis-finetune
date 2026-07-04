@@ -1,0 +1,55 @@
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+================================================================================
+Loading tokenizer
+================================================================================
+================================================================================
+Loading base model in 4bit, no LoRA
+================================================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.12it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.13it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.13it/s]
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:509: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+================================================================================
+Start baseline chunk inference
+================================================================================
+input: data/clean/val_fold_1.jsonl
+output: output/ablation/aggregation/debug_fold1_llm_1sample.jsonl
+samples: 1
+[1/1] line=1, chunks=25
+  chunk 1/25 done
+  chunk 2/25 done
+  chunk 3/25 done
+  chunk 4/25 done
+  chunk 5/25 done
+  chunk 6/25 done
+  chunk 7/25 done
+  chunk 8/25 done
+  chunk 9/25 done
+  chunk 10/25 done
+  chunk 11/25 done
+  chunk 12/25 done
+  chunk 13/25 done
+  chunk 14/25 done
+  chunk 15/25 done
+  chunk 16/25 done
+  chunk 17/25 done
+  chunk 18/25 done
+  chunk 19/25 done
+  chunk 20/25 done
+  chunk 21/25 done
+  chunk 22/25 done
+  chunk 23/25 done
+  chunk 24/25 done
+  chunk 25/25 done
+  aggregation mode: llm
+  llm merge parse failed, outputing all N/A
+[1/1] done, pred_items=1
+================================================================================
+DONE
+Saved to: output/ablation/aggregation/debug_fold1_llm_1sample.jsonl
+================================================================================

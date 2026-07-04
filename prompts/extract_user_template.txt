@@ -1,0 +1,32 @@
+请从下面的医疗可达性研究文献中抽取结构化信息。
+
+字段必须严格为：
+- Literature Title
+- Study Area & Country
+- Data Year
+- Accessibility Method
+- Facility Type
+- Demand Population
+- Dist/Time Calc Method
+- Transport Mode
+- Travel Time Period
+- Urbanization Rate
+
+填写规则：
+1. Literature Title：完整论文标题。
+2. Study Area & Country：研究地区和国家。
+3. Data Year：研究使用的数据年份，不是论文发表年份。
+4. Accessibility Method：空间可达性测度方法，例如 2SFCA、E2SFCA、Gravity model、cumulative opportunity、network analysis 等。
+5. Facility Type：医疗设施类型。
+6. Demand Population：需求人群。
+7. Dist/Time Calc Method：距离或时间的计算方式，例如 road network、Euclidean distance、travel time、GIS network analysis 等。
+8. Transport Mode：交通方式，例如 driving、walking、public transport 等。
+9. Travel Time Period：出行时间段或阈值，例如 15 min、30 min、peak hour 等。
+10. Urbanization Rate：城市化率、城乡分类、urban/rural/suburban 等相关信息。
+
+如果同一文献包含多个方法、多个设施类型或多个不同结果，请输出多个 JSON 对象。
+如果某字段无法确定，填 "N/A"。
+只输出 JSON 数组，不要输出解释文字。
+
+文献内容：
+{article_text}

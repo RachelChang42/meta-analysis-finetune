@@ -1,0 +1,101 @@
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/transformers/utils/hub.py:124: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+================================================================================
+Training config
+================================================================================
+model_path: model/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28
+train_file: data/chunk_train/train_chunk_fold_1.jsonl
+output_dir: output/lora_adapters/qwen25_7b_fold1_r2_a4_do02_step50_lr5e5
+max_length: 4096
+num_train_epochs: 3
+learning_rate: 5e-05
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+logging_steps: 1
+save_strategy: epoch
+max_steps: 50
+weight_decay: 0.01
+warmup_steps: 5
+lora_r: 2
+lora_alpha: 4
+lora_dropout: 0.2
+================================================================================
+Loading tokenizer
+================================================================================
+================================================================================
+Loading model in 4bit
+================================================================================
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.25s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.20s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.18s/it]
+max_steps is given, it will override any value given in num_train_epochs
+================================================================================
+Adding LoRA
+================================================================================
+trainable params: 5,046,272 || all params: 7,620,662,784 || trainable%: 0.06621828235983522
+Loaded 1238 samples from data/chunk_train/train_chunk_fold_1.jsonl
+================================================================================
+Start training
+================================================================================
+  0%|          | 0/50 [00:00<?, ?it/s]/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/torch/utils/checkpoint.py:464: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  warnings.warn(
+  2%|▏         | 1/50 [00:06<05:08,  6.30s/it]                                                2%|▏         | 1/50 [00:06<05:08,  6.30s/it]  4%|▍         | 2/50 [00:12<05:03,  6.32s/it]                                                4%|▍         | 2/50 [00:12<05:03,  6.32s/it]  6%|▌         | 3/50 [00:19<04:58,  6.35s/it]                                                6%|▌         | 3/50 [00:19<04:58,  6.35s/it]  8%|▊         | 4/50 [00:24<04:44,  6.19s/it]                                                8%|▊         | 4/50 [00:24<04:44,  6.19s/it] 10%|█         | 5/50 [00:31<04:40,  6.24s/it]                                               10%|█         | 5/50 [00:31<04:40,  6.24s/it] 12%|█▏        | 6/50 [00:37<04:28,  6.09s/it]                                               12%|█▏        | 6/50 [00:37<04:28,  6.09s/it] 14%|█▍        | 7/50 [00:43<04:24,  6.15s/it]                                               14%|█▍        | 7/50 [00:43<04:24,  6.15s/it] 16%|█▌        | 8/50 [00:49<04:19,  6.18s/it]                                               16%|█▌        | 8/50 [00:49<04:19,  6.18s/it] 18%|█▊        | 9/50 [00:55<04:14,  6.20s/it]                                               18%|█▊        | 9/50 [00:55<04:14,  6.20s/it] 20%|██        | 10/50 [01:02<04:08,  6.21s/it]                                                20%|██        | 10/50 [01:02<04:08,  6.21s/it] 22%|██▏       | 11/50 [01:08<04:02,  6.22s/it]                                                22%|██▏       | 11/50 [01:08<04:02,  6.22s/it] 24%|██▍       | 12/50 [01:14<03:56,  6.23s/it]                                                24%|██▍       | 12/50 [01:14<03:56,  6.23s/it] 26%|██▌       | 13/50 [01:21<03:55,  6.37s/it]                                                26%|██▌       | 13/50 [01:21<03:55,  6.37s/it] 28%|██▊       | 14/50 [01:27<03:52,  6.47s/it]                                                28%|██▊       | 14/50 [01:27<03:52,  6.47s/it] 30%|███       | 15/50 [01:34<03:44,  6.42s/it]                                                30%|███       | 15/50 [01:34<03:44,  6.42s/it] 32%|███▏      | 16/50 [01:40<03:36,  6.37s/it]                                                32%|███▏      | 16/50 [01:40<03:36,  6.37s/it] 34%|███▍      | 17/50 [01:46<03:29,  6.34s/it]                                                34%|███▍      | 17/50 [01:46<03:29,  6.34s/it] 36%|███▌      | 18/50 [01:53<03:24,  6.39s/it]                                                36%|███▌      | 18/50 [01:53<03:24,  6.39s/it] 38%|███▊      | 19/50 [01:59<03:15,  6.31s/it]                                                38%|███▊      | 19/50 [01:59<03:15,  6.31s/it] 40%|████      | 20/50 [02:05<03:09,  6.33s/it]                                                40%|████      | 20/50 [02:05<03:09,  6.33s/it] 42%|████▏     | 21/50 [02:11<03:01,  6.26s/it]                                                42%|████▏     | 21/50 [02:11<03:01,  6.26s/it] 44%|████▍     | 22/50 [02:18<02:58,  6.39s/it]                                                44%|████▍     | 22/50 [02:18<02:58,  6.39s/it] 46%|████▌     | 23/50 [02:24<02:51,  6.36s/it]                                                46%|████▌     | 23/50 [02:24<02:51,  6.36s/it] 48%|████▊     | 24/50 [02:31<02:49,  6.52s/it]                                                48%|████▊     | 24/50 [02:31<02:49,  6.52s/it] 50%|█████     | 25/50 [02:38<02:41,  6.47s/it]                                                50%|█████     | 25/50 [02:38<02:41,  6.47s/it] 52%|█████▏    | 26/50 [02:44<02:34,  6.43s/it]                                                52%|█████▏    | 26/50 [02:44<02:34,  6.43s/it] 54%|█████▍    | 27/50 [02:51<02:29,  6.51s/it]                                                54%|█████▍    | 27/50 [02:51<02:29,  6.51s/it] 56%|█████▌    | 28/50 [02:57<02:22,  6.47s/it]                                                56%|█████▌    | 28/50 [02:57<02:22,  6.47s/it] 58%|█████▊    | 29/50 [03:04<02:16,  6.49s/it]                                                58%|█████▊    | 29/50 [03:04<02:16,  6.49s/it] 60%|██████    | 30/50 [03:10<02:07,  6.40s/it]                                                60%|██████    | 30/50 [03:10<02:07,  6.40s/it] 62%|██████▏   | 31/50 [03:16<02:00,  6.35s/it]                                                62%|██████▏   | 31/50 [03:16<02:00,  6.35s/it] 64%|██████▍   | 32/50 [03:22<01:53,  6.30s/it]                                                64%|██████▍   | 32/50 [03:22<01:53,  6.30s/it] 66%|██████▌   | 33/50 [03:28<01:46,  6.25s/it]                                                66%|██████▌   | 33/50 [03:28<01:46,  6.25s/it] 68%|██████▊   | 34/50 [03:35<01:41,  6.36s/it]                                                68%|██████▊   | 34/50 [03:35<01:41,  6.36s/it] 70%|███████   | 35/50 [03:41<01:35,  6.35s/it]                                                70%|███████   | 35/50 [03:41<01:35,  6.35s/it] 72%|███████▏  | 36/50 [03:47<01:28,  6.29s/it]                                                72%|███████▏  | 36/50 [03:47<01:28,  6.29s/it] 74%|███████▍  | 37/50 [03:54<01:21,  6.29s/it]                                                74%|███████▍  | 37/50 [03:54<01:21,  6.29s/it] 76%|███████▌  | 38/50 [04:00<01:15,  6.26s/it]                                                76%|███████▌  | 38/50 [04:00<01:15,  6.26s/it] 78%|███████▊  | 39/50 [04:06<01:08,  6.25s/it]                                                78%|███████▊  | 39/50 [04:06<01:08,  6.25s/it] 80%|████████  | 40/50 [04:13<01:02,  6.29s/it]                                                80%|████████  | 40/50 [04:13<01:02,  6.29s/it] 82%|████████▏ | 41/50 [04:19<00:57,  6.42s/it]                                                82%|████████▏ | 41/50 [04:19<00:57,  6.42s/it] 84%|████████▍ | 42/50 [04:25<00:50,  6.27s/it]                                                84%|████████▍ | 42/50 [04:25<00:50,  6.27s/it] 86%|████████▌ | 43/50 [04:31<00:43,  6.25s/it]                                                86%|████████▌ | 43/50 [04:31<00:43,  6.25s/it] 88%|████████▊ | 44/50 [04:37<00:37,  6.20s/it]                                                88%|████████▊ | 44/50 [04:37<00:37,  6.20s/it] 90%|█████████ | 45/50 [04:44<00:31,  6.32s/it]                                                90%|█████████ | 45/50 [04:44<00:31,  6.32s/it] 92%|█████████▏| 46/50 [04:51<00:25,  6.38s/it]                                                92%|█████████▏| 46/50 [04:51<00:25,  6.38s/it] 94%|█████████▍| 47/50 [04:57<00:19,  6.50s/it]                                                94%|█████████▍| 47/50 [04:57<00:19,  6.50s/it] 96%|█████████▌| 48/50 [05:04<00:12,  6.45s/it]                                                96%|█████████▌| 48/50 [05:04<00:12,  6.45s/it] 98%|█████████▊| 49/50 [05:10<00:06,  6.40s/it]                                                98%|█████████▊| 49/50 [05:10<00:06,  6.40s/it]100%|██████████| 50/50 [05:16<00:00,  6.35s/it]                                               100%|██████████| 50/50 [05:16<00:00,  6.35s/it]/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/peft/utils/save_and_load.py:154: UserWarning: Could not find a config file in model/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+                                               100%|██████████| 50/50 [05:16<00:00,  6.35s/it]100%|██████████| 50/50 [05:16<00:00,  6.34s/it]
+/root/miniconda3/envs/llm-finetune/lib/python3.10/site-packages/peft/utils/save_and_load.py:154: UserWarning: Could not find a config file in model/huggingface/models--Qwen--Qwen2.5-7B-Instruct/snapshots/a09a35458c702b33eeacc393d103063234e8bc28 - will assume that the vocabulary was not modified.
+  warnings.warn(
+{'loss': 1.781, 'grad_norm': 0.7503950595855713, 'learning_rate': 1e-05, 'epoch': 0.01}
+{'loss': 1.2831, 'grad_norm': 0.6004200577735901, 'learning_rate': 2e-05, 'epoch': 0.01}
+{'loss': 1.4595, 'grad_norm': 0.6085799932479858, 'learning_rate': 3e-05, 'epoch': 0.02}
+{'loss': 1.6578, 'grad_norm': 0.7017800807952881, 'learning_rate': 4e-05, 'epoch': 0.03}
+{'loss': 1.4276, 'grad_norm': 0.6466864347457886, 'learning_rate': 5e-05, 'epoch': 0.03}
+{'loss': 1.5411, 'grad_norm': 0.7735703587532043, 'learning_rate': 4.888888888888889e-05, 'epoch': 0.04}
+{'loss': 1.3816, 'grad_norm': 0.6811515092849731, 'learning_rate': 4.7777777777777784e-05, 'epoch': 0.05}
+{'loss': 1.5191, 'grad_norm': 0.7823108434677124, 'learning_rate': 4.666666666666667e-05, 'epoch': 0.05}
+{'loss': 1.2515, 'grad_norm': 0.7270345091819763, 'learning_rate': 4.555555555555556e-05, 'epoch': 0.06}
+{'loss': 1.4969, 'grad_norm': 0.8463282585144043, 'learning_rate': 4.4444444444444447e-05, 'epoch': 0.06}
+{'loss': 1.5447, 'grad_norm': 0.8388465642929077, 'learning_rate': 4.3333333333333334e-05, 'epoch': 0.07}
+{'loss': 1.3199, 'grad_norm': 0.8277238011360168, 'learning_rate': 4.222222222222222e-05, 'epoch': 0.08}
+{'loss': 1.247, 'grad_norm': 0.9463759660720825, 'learning_rate': 4.111111111111111e-05, 'epoch': 0.08}
+{'loss': 1.0609, 'grad_norm': 0.649201512336731, 'learning_rate': 4e-05, 'epoch': 0.09}
+{'loss': 1.43, 'grad_norm': 0.8612958192825317, 'learning_rate': 3.888888888888889e-05, 'epoch': 0.1}
+{'loss': 1.2884, 'grad_norm': 0.8192160129547119, 'learning_rate': 3.777777777777778e-05, 'epoch': 0.1}
+{'loss': 1.2903, 'grad_norm': 0.8590236902236938, 'learning_rate': 3.6666666666666666e-05, 'epoch': 0.11}
+{'loss': 1.1089, 'grad_norm': 0.8472613096237183, 'learning_rate': 3.555555555555556e-05, 'epoch': 0.12}
+{'loss': 1.2517, 'grad_norm': 0.7196394205093384, 'learning_rate': 3.444444444444445e-05, 'epoch': 0.12}
+{'loss': 1.0278, 'grad_norm': 0.6186337471008301, 'learning_rate': 3.3333333333333335e-05, 'epoch': 0.13}
+{'loss': 1.2246, 'grad_norm': 0.8898329138755798, 'learning_rate': 3.222222222222223e-05, 'epoch': 0.14}
+{'loss': 1.0364, 'grad_norm': 0.616850733757019, 'learning_rate': 3.111111111111111e-05, 'epoch': 0.14}
+{'loss': 1.1269, 'grad_norm': 0.5669658780097961, 'learning_rate': 3e-05, 'epoch': 0.15}
+{'loss': 0.9752, 'grad_norm': 0.6194620132446289, 'learning_rate': 2.8888888888888888e-05, 'epoch': 0.16}
+{'loss': 1.2774, 'grad_norm': 0.49933356046676636, 'learning_rate': 2.777777777777778e-05, 'epoch': 0.16}
+{'loss': 1.0779, 'grad_norm': 0.4539434015750885, 'learning_rate': 2.6666666666666667e-05, 'epoch': 0.17}
+{'loss': 0.9603, 'grad_norm': 0.4475333094596863, 'learning_rate': 2.5555555555555554e-05, 'epoch': 0.17}
+{'loss': 0.9917, 'grad_norm': 0.40941494703292847, 'learning_rate': 2.4444444444444445e-05, 'epoch': 0.18}
+{'loss': 1.1836, 'grad_norm': 0.44891297817230225, 'learning_rate': 2.3333333333333336e-05, 'epoch': 0.19}
+{'loss': 1.1038, 'grad_norm': 0.438244104385376, 'learning_rate': 2.2222222222222223e-05, 'epoch': 0.19}
+{'loss': 1.0264, 'grad_norm': 0.39613446593284607, 'learning_rate': 2.111111111111111e-05, 'epoch': 0.2}
+{'loss': 1.047, 'grad_norm': 0.42250123620033264, 'learning_rate': 2e-05, 'epoch': 0.21}
+{'loss': 0.9337, 'grad_norm': 0.3858812749385834, 'learning_rate': 1.888888888888889e-05, 'epoch': 0.21}
+{'loss': 0.9217, 'grad_norm': 0.34607362747192383, 'learning_rate': 1.777777777777778e-05, 'epoch': 0.22}
+{'loss': 0.9373, 'grad_norm': 0.34017497301101685, 'learning_rate': 1.6666666666666667e-05, 'epoch': 0.23}
+{'loss': 1.0956, 'grad_norm': 0.3503373861312866, 'learning_rate': 1.5555555555555555e-05, 'epoch': 0.23}
+{'loss': 1.0429, 'grad_norm': 0.33579322695732117, 'learning_rate': 1.4444444444444444e-05, 'epoch': 0.24}
+{'loss': 1.2492, 'grad_norm': 0.3862573802471161, 'learning_rate': 1.3333333333333333e-05, 'epoch': 0.25}
+{'loss': 1.1488, 'grad_norm': 0.363668292760849, 'learning_rate': 1.2222222222222222e-05, 'epoch': 0.25}
+{'loss': 0.9706, 'grad_norm': 0.36946821212768555, 'learning_rate': 1.1111111111111112e-05, 'epoch': 0.26}
+{'loss': 0.8811, 'grad_norm': 0.302317351102829, 'learning_rate': 1e-05, 'epoch': 0.26}
+{'loss': 1.2152, 'grad_norm': 0.3960043787956238, 'learning_rate': 8.88888888888889e-06, 'epoch': 0.27}
+{'loss': 1.1238, 'grad_norm': 0.4185601472854614, 'learning_rate': 7.777777777777777e-06, 'epoch': 0.28}
+{'loss': 0.8443, 'grad_norm': 0.3812909424304962, 'learning_rate': 6.666666666666667e-06, 'epoch': 0.28}
+{'loss': 0.9504, 'grad_norm': 0.35363268852233887, 'learning_rate': 5.555555555555556e-06, 'epoch': 0.29}
+{'loss': 1.0034, 'grad_norm': 0.3824578821659088, 'learning_rate': 4.444444444444445e-06, 'epoch': 0.3}
+{'loss': 0.758, 'grad_norm': 0.3112603724002838, 'learning_rate': 3.3333333333333333e-06, 'epoch': 0.3}
+{'loss': 0.9787, 'grad_norm': 0.35438457131385803, 'learning_rate': 2.2222222222222225e-06, 'epoch': 0.31}
+{'loss': 0.8697, 'grad_norm': 0.32036417722702026, 'learning_rate': 1.1111111111111112e-06, 'epoch': 0.32}
+{'loss': 1.0174, 'grad_norm': 0.32467013597488403, 'learning_rate': 0.0, 'epoch': 0.32}
+{'train_runtime': 316.8501, 'train_samples_per_second': 1.262, 'train_steps_per_second': 0.158, 'train_loss': 1.1668303227424621, 'epoch': 0.32}
+================================================================================
+Saving LoRA adapter
+================================================================================
+Training finished.
+Saved to: output/lora_adapters/qwen25_7b_fold1_r2_a4_do02_step50_lr5e5
