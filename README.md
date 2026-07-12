@@ -28,7 +28,7 @@
 
 ## 1. 运行环境
 
-原实验环境如下：
+实验环境如下：
 
 | 项目 | 配置 |
 |---|---|
@@ -46,8 +46,6 @@ pip install torch transformers datasets peft bitsandbytes accelerate sentencepie
 ```
 
 ## 2. 实验耗时
-
-仓库日志中可以确认的耗时为：
 
 | 实验 | 配置 | 耗时 |
 |---|---|---:|
